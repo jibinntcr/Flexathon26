@@ -1,0 +1,16 @@
+.next/
+.next.nosync/
+node_modules/
+node_modules.nosync/
+test-screenshots/
+public/audit-results/
+scratch/
+FlexathonOct18/
+*.bak
+*.py
+*.pyc
+__pycache__/
+*.zip
+registrations.db
+.git
+.vscode

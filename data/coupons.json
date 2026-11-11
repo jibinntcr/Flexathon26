@@ -1,0 +1,38 @@
+[
+  {
+    "id": 3,
+    "code": "SAVE20",
+    "discountType": "percentage",
+    "discountValue": 20,
+    "isActive": true,
+    "description": "Special 20% Discount Code",
+    "timesUsed": 0,
+    "maxUses": null,
+    "expiryDate": null,
+    "createdAt": "2026-09-04T14:03:20.243Z"
+  },
+  {
+    "id": 1,
+    "code": "VEGA999",
+    "discountType": "percentage",
+    "discountValue": 10,
+    "isActive": true,
+    "description": "10% Special Registration Discount",
+    "timesUsed": 0,
+    "maxUses": null,
+    "expiryDate": null,
+    "createdAt": "2026-08-17T10:30:00.000Z"
+  },
+  {
+    "id": 2,
+    "code": "NILA10%",
+    "discountType": "percentage",
+    "discountValue": 10,
+    "isActive": true,
+    "description": "10%DISCOUNT",
+    "timesUsed": 3,
+    "maxUses": null,
+    "expiryDate": null,
+    "createdAt": "2026-08-27T05:02:35.159Z"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cmp_1788097779876_9qoe",
+    "timestamp": "2026-08-30T13:49:39.876Z",
+    "subject": "🎟️ Special 20% Discount for FLEXATHON 2026 - Register Now!",
+    "channel": "email",
+    "templateName": "Discount Promo Offer",
+    "totalRecipients": 1,
+    "successCount": 1,
+    "failedCount": 0,
+    "senderEmail": "info@flexathonrun.org",
+    "senderName": "FLEXATHON 2026",
+    "status": "COMPLETED",
+    "previewSnippet": "🎟️ Special 20% Discount for FLEXATHON 2026 - Register Now!",
+    "recipientsSample": [
+      "dhanildasph@gmail.com"
+    ],
+    "errors": []
+  }
+]

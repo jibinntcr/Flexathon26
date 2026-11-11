@@ -1,0 +1,1542 @@
+{
+  "totalPageViews": 552,
+  "totalClicks": 380,
+  "totalRegisterClicks": 27,
+  "totalFormOpened": 23,
+  "totalPaymentInitiated": 8,
+  "totalPaymentCompleted": 21,
+  "uniqueVisitors": [
+    "v_1787805265568_zmmj5it",
+    "v_1787807194565_5cmx3vq",
+    "v_1787810546067_y065hnp",
+    "v_1787810554563_u5t2dvm",
+    "v_1787810560837_mnpx9l8",
+    "v_1787810570347_9w3pvyx",
+    "v_1787810655912_fpli6n5",
+    "v_1787810665300_h5atdyz",
+    "v_1787810671372_g9pyvqa",
+    "v_1787810681449_u17ni9f",
+    "v_1787810758964_awuyzsw",
+    "v_1787810766106_50no7vp",
+    "v_1787810772522_zax79cn",
+    "v_1787810780625_54dlj4l",
+    "v_1787810841322_u5z8d7h",
+    "v_1787810848071_wihsyn1",
+    "v_1787810854843_zrtae99",
+    "v_1787810865553_7isevuz",
+    "v_1787811265437_7lam8t3",
+    "v_1787811271844_k9fu8ft",
+    "v_1787811279179_tn3kpad",
+    "v_1787811291730_56f2uxs",
+    "v_1787828855053_xkrhr6u",
+    "v_1787828884255_7wixky5",
+    "v_1787828921249_emmfj1p",
+    "v_1787828982634_3rmdp81",
+    "v_1787829037658_4qtsq2n",
+    "v_1787829064477_l5v45n1",
+    "v_1787830093350",
+    "v_1787926308930",
+    "v_1788169055026_ycuk2an",
+    "v_1788172342810_avazrfj",
+    "v_1788172376739_nm3cexx",
+    "v_1788172426494_v98l17g",
+    "v_1788172573242_lf323cy",
+    "v_1788173653203_qceaqg3",
+    "v_1788183478318_5tscr1p",
+    "v_1788183548209_ukly91q",
+    "v_1788183555697_47lqe0i",
+    "v_1788183562860_gv23hsv",
+    "v_1788183576698_hcy1pq3",
+    "v_1788183591700_ppynngj",
+    "v_1788183637220_40zwb5m",
+    "v_1788183645904_dgw7kqs",
+    "v_1788183653369_47afth2",
+    "v_1788183660753_wlaiypx",
+    "v_1788183667356_n2s31qv",
+    "v_1788185310279",
+    "v_1788185311587",
+    "v_1788185398842",
+    "v_1788185400563",
+    "v_1788187814506",
+    "v_1788187830956",
+    "v_1788187832882",
+    "v_1788187833766",
+    "v_1788187853468",
+    "v_1788187855253",
+    "v_1788187856133",
+    "v_1788187882046_hc0f6ze",
+    "v_1788187930726_c5n4kbz",
+    "v_1788187985630_pif703f",
+    "v_1788188000299_l636uwj",
+    "v_1788245528622",
+    "v_1788253346234",
+    "v_1788253386597",
+    "v_1788255444862",
+    "v_1788255453070",
+    "v_1788255453491",
+    "v_1788255453906",
+    "v_1788255456899",
+    "v_1788255457624",
+    "v_1788255458629",
+    "v_1788255459169",
+    "v_1788255460804",
+    "v_1788255462305",
+    "v_1788255462850",
+    "v_1788527979252_ifr0yxm",
+    "v_1788528439235_wq3igjx",
+    "v_1788528505776_k4p5xj7",
+    "v_1788528949699_rgz1fkv",
+    "v_1788529833389_pblc21z",
+    "v_1788529906663_histlvj",
+    "v_1788530848789_ra5tn0i",
+    "v_1788531686204_ptblhl5",
+    "v_1788531796423_kglutgu",
+    "v_1789201841343_jtlwr9a",
+    "v_1789201841429_00xtfxn",
+    "v_1789201841508_xvatzet",
+    "v_1789201841630_84tnsau",
+    "v_1793269028281_7ph3j7f",
+    "v_1793276704541_oye4w4r",
+    "v_1793276721413_firbibv",
+    "v_1793279645742_e72bf2p",
+    "v_1793279828880_aqexwgj",
+    "v_1793280100879_qk6rheq",
+    "v_1793280208857_mzqyj66",
+    "v_1793280235992_6ux7hel",
+    "v_1793280244257_3kszp4r",
+    "v_1793609326169_49ycmvd",
+    "v_1793609458909_pvjbvw8",
+    "v_1793613549178_skvqh7n",
+    "v_1793613692388_q568tc6",
+    "v_1794030557342_a1z2xnr",
+    "v_1794404168165_9xt1yag",
+    "v_1794404319274_kgbk8x7",
+    "v_1794404320931_5yblvnj",
+    "v_1794404322438_2re2tbg",
+    "v_1794404437655_staprbd",
+    "v_1794404441490_qguar8v",
+    "v_1794404475935_022qkus",
+    "v_1794404506322_e6cij08",
+    "v_1794405108893_l0s6uhq",
+    "v_1794405179333_z8agtc3",
+    "v_1794405202027_9gz8zvu",
+    "v_1794405226005_zah9jqx",
+    "v_1794405376995_pqqwffz",
+    "v_1794405402767_fl63n5m",
+    "v_1794405846506_ealxc5k",
+    "v_1794405952570_icjro9a",
+    "v_1794406203333_solkmpb",
+    "v_1794406292979_4ggpt8b",
+    "v_1794406358884_givg245",
+    "v_1794412536550_0mdmzg1"
+  ],
+  "dailyStats": {
+    "2026-08-27": {
+      "pageViews": 35,
+      "visitors": [
+        "v_1787805265568_zmmj5it",
+        "v_1787807194565_5cmx3vq",
+        "v_1787810546067_y065hnp",
+        "v_1787810554563_u5t2dvm",
+        "v_1787810560837_mnpx9l8",
+        "v_1787810570347_9w3pvyx",
+        "v_1787810655912_fpli6n5",
+        "v_1787810665300_h5atdyz",
+        "v_1787810671372_g9pyvqa",
+        "v_1787810681449_u17ni9f",
+        "v_1787810758964_awuyzsw",
+        "v_1787810766106_50no7vp",
+        "v_1787810772522_zax79cn",
+        "v_1787810780625_54dlj4l",
+        "v_1787810841322_u5z8d7h",
+        "v_1787810848071_wihsyn1",
+        "v_1787810854843_zrtae99",
+        "v_1787810865553_7isevuz",
+        "v_1787811265437_7lam8t3",
+        "v_1787811271844_k9fu8ft",
+        "v_1787811279179_tn3kpad",
+        "v_1787811291730_56f2uxs",
+        "v_1787828855053_xkrhr6u",
+        "v_1787828884255_7wixky5",
+        "v_1787828921249_emmfj1p",
+        "v_1787828982634_3rmdp81",
+        "v_1787829037658_4qtsq2n",
+        "v_1787829064477_l5v45n1",
+        "v_1787830093350"
+      ],
+      "clicks": 69,
+      "registerClicks": 10,
+      "formOpened": 6,
+      "paymentInitiated": 3,
+      "paymentCompleted": 0
+    },
+    "2026-08-28": {
+      "pageViews": 2,
+      "visitors": [
+        "v_1787805265568_zmmj5it",
+        "v_1787926308930"
+      ],
+      "clicks": 3,
+      "registerClicks": 3,
+      "formOpened": 0,
+      "paymentInitiated": 1,
+      "paymentCompleted": 0
+    },
+    "2026-08-30": {
+      "pageViews": 2,
+      "visitors": [
+        "v_1787805265568_zmmj5it"
+      ],
+      "clicks": 36,
+      "registerClicks": 0,
+      "formOpened": 0,
+      "paymentInitiated": 0,
+      "paymentCompleted": 0
+    },
+    "2026-08-31": {
+      "pageViews": 85,
+      "visitors": [
+        "v_1788169055026_ycuk2an",
+        "v_1788172342810_avazrfj",
+        "v_1788172376739_nm3cexx",
+        "v_1788172426494_v98l17g",
+        "v_1788172573242_lf323cy",
+        "v_1788173653203_qceaqg3",
+        "v_1788183478318_5tscr1p",
+        "v_1788183548209_ukly91q",
+        "v_1788183555697_47lqe0i",
+        "v_1788183562860_gv23hsv",
+        "v_1788183576698_hcy1pq3",
+        "v_1788183591700_ppynngj",
+        "v_1788183637220_40zwb5m",
+        "v_1788183645904_dgw7kqs",
+        "v_1788183653369_47afth2",
+        "v_1788183660753_wlaiypx",
+        "v_1788183667356_n2s31qv",
+        "v_1787807194565_5cmx3vq",
+        "v_1788185310279",
+        "v_1788185311587",
+        "v_1788185398842",
+        "v_1788185400563",
+        "v_1788187814506",
+        "v_1788187830956",
+        "v_1788187832882",
+        "v_1788187833766",
+        "v_1788187853468",
+        "v_1788187855253",
+        "v_1788187856133",
+        "v_1788187882046_hc0f6ze",
+        "v_1788187930726_c5n4kbz",
+        "v_1788187985630_pif703f",
+        "v_1788188000299_l636uwj"
+      ],
+      "clicks": 61,
+      "registerClicks": 2,
+      "formOpened": 4,
+      "paymentInitiated": 4,
+      "paymentCompleted": 7
+    },
+    "2026-09-01": {
+      "pageViews": 1,
+      "visitors": [
+        "v_1788245528622",
+        "v_1787805265568_zmmj5it",
+        "v_1788253346234",
+        "v_1788253386597",
+        "v_1788255444862",
+        "v_1788255453070",
+        "v_1788255453491",
+        "v_1788255453906",
+        "v_1788255456899",
+        "v_1788255457624",
+        "v_1788255458629",
+        "v_1788255459169",
+        "v_1788255460804",
+        "v_1788255462305",
+        "v_1788255462850"
+      ],
+      "clicks": 20,
+      "registerClicks": 0,
+      "formOpened": 0,
+      "paymentInitiated": 0,
+      "paymentCompleted": 14
+    },
+    "2026-09-03": {
+      "pageViews": 47,
+      "visitors": [
+        "v_1788169055026_ycuk2an"
+      ],
+      "clicks": 30,
+      "registerClicks": 7,
+      "formOpened": 7,
+      "paymentInitiated": 0,
+      "paymentCompleted": 0
+    },
+    "2026-09-04": {
+      "pageViews": 20,
+      "visitors": [
+        "v_1788169055026_ycuk2an",
+        "v_1787807194565_5cmx3vq",
+        "v_1788527979252_ifr0yxm",
+        "v_1788528439235_wq3igjx",
+        "v_1788528505776_k4p5xj7",
+        "v_1788528949699_rgz1fkv",
+        "v_1788529833389_pblc21z",
+        "v_1788529906663_histlvj",
+        "v_1788530848789_ra5tn0i",
+        "v_1788531686204_ptblhl5",
+        "v_1788531796423_kglutgu"
+      ],
+      "clicks": 41,
+      "registerClicks": 5,
+      "formOpened": 6,
+      "paymentInitiated": 0,
+      "paymentCompleted": 0
+    },
+    "2026-09-12": {
+      "pageViews": 115,
+      "visitors": [
+        "v_1789201841343_jtlwr9a",
+        "v_1789201841429_00xtfxn",
+        "v_1789201841508_xvatzet",
+        "v_1789201841630_84tnsau"
+      ],
+      "clicks": 0,
+      "registerClicks": 0,
+      "formOpened": 0,
+      "paymentInitiated": 0,
+      "paymentCompleted": 0
+    },
+    "2026-10-29": {
+      "pageViews": 112,
+      "visitors": [
+        "v_1793269028281_7ph3j7f",
+        "v_1793276704541_oye4w4r",
+        "v_1793276721413_firbibv",
+        "v_1793279645742_e72bf2p",
+        "v_1793279828880_aqexwgj",
+        "v_1793280100879_qk6rheq",
+        "v_1793280208857_mzqyj66",
+        "v_1793280235992_6ux7hel",
+        "v_1793280244257_3kszp4r"
+      ],
+      "clicks": 22,
+      "registerClicks": 0,
+      "formOpened": 0,
+      "paymentInitiated": 0,
+      "paymentCompleted": 0
+    },
+    "2026-11-02": {
+      "pageViews": 71,
+      "visitors": [
+        "v_1793269028281_7ph3j7f",
+        "v_1793609326169_49ycmvd",
+        "v_1793609458909_pvjbvw8",
+        "v_1793613549178_skvqh7n",
+        "v_1793613692388_q568tc6"
+      ],
+      "clicks": 18,
+      "registerClicks": 0,
+      "formOpened": 0,
+      "paymentInitiated": 0,
+      "paymentCompleted": 0
+    },
+    "2026-11-07": {
+      "pageViews": 13,
+      "visitors": [
+        "v_1794030557342_a1z2xnr",
+        "v_1793269028281_7ph3j7f"
+      ],
+      "clicks": 23,
+      "registerClicks": 0,
+      "formOpened": 0,
+      "paymentInitiated": 0,
+      "paymentCompleted": 0
+    },
+    "2026-11-11": {
+      "pageViews": 49,
+      "visitors": [
+        "v_1793269028281_7ph3j7f",
+        "v_1794404168165_9xt1yag",
+        "v_1794404319274_kgbk8x7",
+        "v_1794404320931_5yblvnj",
+        "v_1794404322438_2re2tbg",
+        "v_1794404437655_staprbd",
+        "v_1794404441490_qguar8v",
+        "v_1794404475935_022qkus",
+        "v_1794404506322_e6cij08",
+        "v_1794405108893_l0s6uhq",
+        "v_1794405179333_z8agtc3",
+        "v_1794405202027_9gz8zvu",
+        "v_1794405226005_zah9jqx",
+        "v_1794405376995_pqqwffz",
+        "v_1794405402767_fl63n5m",
+        "v_1794405846506_ealxc5k",
+        "v_1794405952570_icjro9a",
+        "v_1794406203333_solkmpb",
+        "v_1794406292979_4ggpt8b",
+        "v_1794406358884_givg245",
+        "v_1794412536550_0mdmzg1"
+      ],
+      "clicks": 57,
+      "registerClicks": 0,
+      "formOpened": 0,
+      "paymentInitiated": 0,
+      "paymentCompleted": 0
+    }
+  },
+  "dropoffLogs": [
+    {
+      "id": "log_1788255462852_xnh84",
+      "timestamp": "2026-09-01T09:37:42.852Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Akash Pingley",
+      "whatsapp": "8008001374",
+      "email": "aakashpk1@gmail.com",
+      "category": "10Km",
+      "amount": 899,
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10078) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255462309_dqwwi",
+      "timestamp": "2026-09-01T09:37:42.309Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Justin John",
+      "whatsapp": "8075172703",
+      "email": "justinjohn317@gmail.com",
+      "category": "3Km",
+      "amount": 6,
+      "coupon": "TESTGBN",
+      "remark": "Registration & payment confirmed for 3Km Run (#FLX-10077) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255460806_p8woy",
+      "timestamp": "2026-09-01T09:37:40.806Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Aljo Varghese",
+      "whatsapp": "9895892856",
+      "email": "aljovarghese2000@gmail.com",
+      "category": "5Km",
+      "amount": 8,
+      "coupon": "TESTGBN",
+      "remark": "Registration & payment confirmed for 5Km Run (#FLX-10076) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255459171_b7t99",
+      "timestamp": "2026-09-01T09:37:39.171Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Harshavardhan Reddy",
+      "whatsapp": "7337538177",
+      "email": "harshavardhansappidi123@gmail.com",
+      "category": "10Km",
+      "amount": 539,
+      "coupon": "SPORTS30",
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10075) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255458631_xtcie",
+      "timestamp": "2026-09-01T09:37:38.631Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Dhruv Dubey",
+      "whatsapp": "9767387427",
+      "email": "dhruvd32@gmail.com",
+      "category": "10Km",
+      "amount": 539,
+      "coupon": "SPORTS30",
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10074) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255457627_jkmpy",
+      "timestamp": "2026-09-01T09:37:37.627Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Vasavi Yenni",
+      "whatsapp": "9381444382",
+      "email": "yennivasavi773@gmail.com",
+      "category": "5Km",
+      "amount": 479,
+      "coupon": "SPORTS30",
+      "remark": "Registration & payment confirmed for 5Km Run (#FLX-10073) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255456901_d9ckg",
+      "timestamp": "2026-09-01T09:37:36.901Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "MUHAMAD RANEEF",
+      "whatsapp": "154522655555",
+      "email": "mohammedraneef1042017@gmail.com",
+      "category": "3Km",
+      "amount": 6,
+      "coupon": "TESTGBN",
+      "remark": "Registration & payment confirmed for 3Km Run (#FLX-10072) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255455295_jqn2x",
+      "timestamp": "2026-09-01T09:37:35.295Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "ALSAHAF",
+      "whatsapp": "9895122892",
+      "email": "sahafk000@gmail.com",
+      "category": "3Km",
+      "amount": 6,
+      "coupon": "TESTGBN",
+      "remark": "Registration & payment confirmed for 3Km Run (#FLX-10071) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255453494_k24wc",
+      "timestamp": "2026-09-01T09:37:33.494Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Jibn N",
+      "whatsapp": "9496839168",
+      "email": "jibintcr@gmail.com",
+      "category": "10Km",
+      "amount": 9,
+      "coupon": "TESTGBN",
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10070) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255453072_d1n38",
+      "timestamp": "2026-09-01T09:37:33.072Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Jibin N",
+      "whatsapp": "8281550638",
+      "email": "jibintcr@gmail.com",
+      "category": "5Km",
+      "amount": 8,
+      "coupon": "TESTGBN",
+      "remark": "Registration & payment confirmed for 5Km Run (#FLX-10069) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788255445999_wbokf",
+      "timestamp": "2026-09-01T09:37:25.999Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Raksha Raghavendra",
+      "whatsapp": "7259414534",
+      "email": "raksha24012@gmail.com",
+      "category": "10Km",
+      "amount": 899,
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10068) via admin_payment_reconciliation",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788253386602_yh7jg",
+      "timestamp": "2026-09-01T09:03:06.601Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Test Runner Beta",
+      "whatsapp": "9999900002",
+      "email": "testbeta@example.com",
+      "category": "10Km",
+      "amount": 559,
+      "coupon": "SPORTS30",
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10073) via razorpay_webhook",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788253346236_7nns1",
+      "timestamp": "2026-09-01T09:02:26.236Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Test Runner Alpha",
+      "whatsapp": "9999900001",
+      "email": "testalpha@example.com",
+      "category": "5Km",
+      "amount": 799,
+      "remark": "Registration & payment confirmed for 5Km Run (#FLX-10072) via web_registration_form",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788245528624_0czs5",
+      "timestamp": "2026-09-01T06:52:08.624Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "TShirt BloodGroup Test Runner",
+      "whatsapp": "+919876543210",
+      "email": "testrunner_1788245527557@example.com",
+      "category": "5Km",
+      "amount": 799,
+      "remark": "Registration & payment confirmed for 5Km Run (#FLX-10072) via test_verification",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788187856138_znqao",
+      "timestamp": "2026-08-31T14:50:56.138Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Ananya Verma",
+      "whatsapp": "9876587853",
+      "email": "ananya.verma@testmail.org",
+      "category": "10Km",
+      "amount": 899,
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10071) via web_registration_form",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788187855258_74tvy",
+      "timestamp": "2026-08-31T14:50:55.258Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Rohan Verma",
+      "whatsapp": "9876587853",
+      "email": "rohan.verma@testmail.org",
+      "category": "5Km",
+      "amount": 799,
+      "remark": "Registration & payment confirmed for 5Km Run (#FLX-10070) via web_registration_form",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788187853469_3bbdw",
+      "timestamp": "2026-08-31T14:50:53.469Z",
+      "stage": "PAYMENT_INITIATED",
+      "category": "5Km",
+      "amount": 799,
+      "remark": "Initiated checkout for 5Km Run (₹799) — awaiting payment",
+      "status": "ABANDONED"
+    },
+    {
+      "id": "log_1788187833769_01e6p",
+      "timestamp": "2026-08-31T14:50:33.769Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Ananya Verma",
+      "whatsapp": "9876587830",
+      "email": "ananya.verma@testmail.org",
+      "category": "10Km",
+      "amount": 899,
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10069) via web_registration_form",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788187832888_uhid3",
+      "timestamp": "2026-08-31T14:50:32.888Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Rohan Verma",
+      "whatsapp": "9876587830",
+      "email": "rohan.verma@testmail.org",
+      "category": "5Km",
+      "amount": 799,
+      "remark": "Registration & payment confirmed for 5Km Run (#FLX-10068) via web_registration_form",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788187830958_810kn",
+      "timestamp": "2026-08-31T14:50:30.958Z",
+      "stage": "PAYMENT_INITIATED",
+      "category": "5Km",
+      "amount": 799,
+      "remark": "Initiated checkout for 5Km Run (₹799) — awaiting payment",
+      "status": "ABANDONED"
+    },
+    {
+      "id": "log_1788187814507_q9kit",
+      "timestamp": "2026-08-31T14:50:14.507Z",
+      "stage": "PAYMENT_INITIATED",
+      "category": "5Km",
+      "amount": 799,
+      "remark": "Initiated checkout for 5Km Run (₹799) — awaiting payment",
+      "status": "ABANDONED"
+    },
+    {
+      "id": "log_1788185400570_ddrv2",
+      "timestamp": "2026-08-31T14:10:00.570Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Comprehensive Test Runner",
+      "whatsapp": "9988776655",
+      "email": "comprehensive@test.org",
+      "category": "3Km",
+      "amount": 539,
+      "coupon": "NILA10%",
+      "remark": "Registration & payment confirmed for 3Km Run (#FLX-10067) via web_registration_form",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788185398844_pw0ek",
+      "timestamp": "2026-08-31T14:09:58.844Z",
+      "stage": "PAYMENT_INITIATED",
+      "name": "Comprehensive Test Runner",
+      "whatsapp": "9988776655",
+      "email": "comprehensive@test.org",
+      "category": "3Km",
+      "amount": 539,
+      "coupon": "NILA10%",
+      "remark": "Initiated checkout for 3Km Run (₹539) — awaiting payment",
+      "status": "ABANDONED"
+    },
+    {
+      "id": "log_1788185311590_qd5oe",
+      "timestamp": "2026-08-31T14:08:31.590Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Pooja Sharma",
+      "whatsapp": "9988776655",
+      "email": "pooja.test@example.com",
+      "category": "10Km",
+      "amount": 809,
+      "coupon": "NILA10%",
+      "remark": "Registration & payment confirmed for 10Km Run (#FLX-10066) via web_registration_form",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1788185310281_9pmhd",
+      "timestamp": "2026-08-31T14:08:30.281Z",
+      "stage": "PAYMENT_COMPLETED",
+      "name": "Arjun Sharma",
+      "whatsapp": "9988776655",
+      "email": "arjun.test@example.com",
+      "category": "5Km",
+      "amount": 719,
+      "coupon": "NILA10%",
+      "remark": "Registration & payment confirmed for 5Km Run (#FLX-10065) via web_registration_form",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "log_1787926308945_jujxs",
+      "timestamp": "2026-08-28T14:11:48.945Z",
+      "stage": "PAYMENT_INITIATED",
+      "name": "dhanil das das",
+      "whatsapp": "9746212465",
+      "email": "dhanildasph@gmail.com",
+      "category": "3Km",
+      "amount": 539,
+      "coupon": "NILA10%",
+      "remark": "Initiated checkout for 3Km Run (₹539) — awaiting payment",
+      "status": "ABANDONED"
+    },
+    {
+      "id": "log_1787830093353_txqml",
+      "timestamp": "2026-08-27T11:28:13.353Z",
+      "stage": "PAYMENT_INITIATED",
+      "name": "Live Dropoff Tester",
+      "whatsapp": "919988776655",
+      "email": "livedropoff@test.org",
+      "category": "5Km",
+      "amount": 799,
+      "remark": "Initiated checkout for 5Km Run (₹799) — awaiting payment",
+      "status": "ABANDONED"
+    }
+  ],
+  "recentEvents": [
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:06:24.087Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:06:23.450Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:06:22.739Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T16:05:56.823Z"
+    },
+    {
+      "type": "click",
+      "path": "/gallery",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "HOME",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:05:55.300Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/gallery",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T16:05:50.548Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "GALLERY",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:05:47.932Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T16:05:16.064Z"
+    },
+    {
+      "type": "click",
+      "path": "/contact",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "HOME",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:05:14.085Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/contact",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T16:05:11.444Z"
+    },
+    {
+      "type": "click",
+      "path": "/global-goals",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "CONTACT",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:05:07.920Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/global-goals",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T16:05:05.219Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:05:05.104Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "17 GLOBAL GOALS",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T16:05:00.745Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T16:04:45.504Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T16:04:44.842Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/gallery",
+      "visitorId": "v_1794412536550_0mdmzg1",
+      "timestamp": "2026-11-11T15:56:05.108Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/about",
+      "visitorId": "v_1794412536550_0mdmzg1",
+      "timestamp": "2026-11-11T15:55:59.414Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/kochi2027",
+      "visitorId": "v_1794412536550_0mdmzg1",
+      "timestamp": "2026-11-11T15:55:55.134Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/hydoct18/the-run",
+      "visitorId": "v_1794412536550_0mdmzg1",
+      "timestamp": "2026-11-11T15:55:47.575Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/hydoct18",
+      "visitorId": "v_1794412536550_0mdmzg1",
+      "timestamp": "2026-11-11T15:55:38.189Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T15:27:57.656Z"
+    },
+    {
+      "type": "click",
+      "path": "/hydoct18",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "Overview",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T15:27:55.601Z"
+    },
+    {
+      "type": "click",
+      "path": "/hydoct18",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "HOME",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T15:27:55.601Z"
+    },
+    {
+      "type": "click",
+      "path": "/hydoct18",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "FLEXATHON — The Global Goals Run Home",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T15:27:55.600Z"
+    },
+    {
+      "type": "click",
+      "path": "/hydoct18",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "The Run (3K/5K/10K)",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T15:27:41.726Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/hydoct18",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:17:14.478Z"
+    },
+    {
+      "type": "click",
+      "path": "/gallery",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "🏛️ Hyd ’26 Archive",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:17:14.167Z"
+    },
+    {
+      "type": "click",
+      "path": "/gallery",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "GALLERY",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:17:00.940Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/gallery",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:17:00.828Z"
+    },
+    {
+      "type": "click",
+      "path": "/impact",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "GALLERY",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:57.503Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/impact",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:16:56.757Z"
+    },
+    {
+      "type": "click",
+      "path": "/global-goals",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "IMPACT",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:56.620Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/global-goals",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:16:55.048Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "17 GLOBAL GOALS",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:54.880Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:16:48.664Z"
+    },
+    {
+      "type": "click",
+      "path": "/impact",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "FLEXATHON — The Global Goals Run Home",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:48.354Z"
+    },
+    {
+      "type": "click",
+      "path": "/impact",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "https://flexonsports.org/",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:41.826Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/impact",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:16:36.918Z"
+    },
+    {
+      "type": "click",
+      "path": "/global-goals",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "IMPACT",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:36.698Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/global-goals",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:16:35.757Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "17 GLOBAL GOALS",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:35.587Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "17 GLOBAL GOALS",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:34.669Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:08.958Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:07.873Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:05.448Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:04.165Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:02.792Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:16:00.881Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:15:58.704Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:15:52.845Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794406358884_givg245",
+      "timestamp": "2026-11-11T14:12:40.179Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794406358884_givg245",
+      "timestamp": "2026-11-11T14:12:38.885Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794406292979_4ggpt8b",
+      "timestamp": "2026-11-11T14:11:32.980Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794406203333_solkmpb",
+      "timestamp": "2026-11-11T14:10:08.139Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1794406203333_solkmpb",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:10:06.509Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1794406203333_solkmpb",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:10:05.361Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1794406203333_solkmpb",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:10:04.184Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794406203333_solkmpb",
+      "timestamp": "2026-11-11T14:10:03.336Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794405952570_icjro9a",
+      "timestamp": "2026-11-11T14:05:52.571Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1794405846506_ealxc5k",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:04:08.570Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1794405846506_ealxc5k",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:04:07.327Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794405846506_ealxc5k",
+      "timestamp": "2026-11-11T14:04:06.508Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:01:41.447Z"
+    },
+    {
+      "type": "click",
+      "path": "/global-goals",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "HOME",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:01:41.312Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/global-goals",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:01:40.913Z"
+    },
+    {
+      "type": "click",
+      "path": "/hydoct18",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "17 GLOBAL GOALS",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:01:40.120Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/hydoct18",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:01:33.903Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "🏛️ Hyd ’26 Archive",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:01:32.019Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:01:19.372Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:01:18.304Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T14:01:16.812Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T14:01:08.734Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794405402767_fl63n5m",
+      "timestamp": "2026-11-11T13:56:42.769Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794405376995_pqqwffz",
+      "timestamp": "2026-11-11T13:56:16.997Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794405226005_zah9jqx",
+      "timestamp": "2026-11-11T13:53:46.007Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794405202027_9gz8zvu",
+      "timestamp": "2026-11-11T13:53:22.029Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794405179333_z8agtc3",
+      "timestamp": "2026-11-11T13:52:59.336Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1794405108893_l0s6uhq",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:51:50.521Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794405108893_l0s6uhq",
+      "timestamp": "2026-11-11T13:51:48.895Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/impact",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T13:47:08.713Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "17 GLOBAL GOALS",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:47:08.550Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "IMPACT",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:47:08.549Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "EDITIONS",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:47:00.790Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "ABOUT",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:47:00.785Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "ABOUT",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:47:00.784Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "ABOUT",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:46:55.645Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "ABOUT",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:46:50.710Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:46:38.418Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:46:37.602Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:46:37.536Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:46:37.517Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:46:35.108Z"
+    },
+    {
+      "type": "click",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "label": "›",
+      "meta": {
+        "isRegisterCta": false
+      },
+      "timestamp": "2026-11-11T13:46:34.252Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1793269028281_7ph3j7f",
+      "timestamp": "2026-11-11T13:46:32.848Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794404506322_e6cij08",
+      "timestamp": "2026-11-11T13:41:46.324Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794404475935_022qkus",
+      "timestamp": "2026-11-11T13:41:15.936Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794404441490_qguar8v",
+      "timestamp": "2026-11-11T13:40:41.490Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794404437655_staprbd",
+      "timestamp": "2026-11-11T13:40:40.040Z"
+    },
+    {
+      "type": "pageview",
+      "path": "/",
+      "visitorId": "v_1794404322438_2re2tbg",
+      "timestamp": "2026-11-11T13:38:42.439Z"
+    }
+  ]
+}

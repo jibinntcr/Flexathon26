@@ -1,0 +1,379 @@
+[
+  {
+    "id": "edition-hyd-2026",
+    "slug": "hydoct18",
+    "publicPath": "/hydoct18",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "year": 2026,
+    "editionName": "FLEXATHON 2026 Hyderabad",
+    "statusBadgeText": "Hyderabad 2026 — Successfully Concluded",
+    "eventDate": "2026-10-18",
+    "eventDateDisplay": "18 October 2026",
+    "timezone": "Asia/Kolkata",
+    "venue": "ESCI Campus, Gachibowli, Hyderabad",
+    "venueAddress": "Engineering Staff College of India (ESCI), Old Bombay Highway, Gachibowli, Hyderabad, Telangana 500032",
+    "mapUrl": "https://maps.google.com/?q=Engineering+Staff+College+of+India+Gachibowli+Hyderabad",
+    "description": "The inaugural Hyderabad edition of FLEXATHON — The Global Goals Run brought together runners, students, families, and corporate teams at ESCI Gachibowli across 3K, 5K, and 10K categories in support of UN Sustainable Development Goal 4: Quality Education.",
+    "heroAsset": "/assets/gallery/oct18/NIX09262.JPG",
+    "imageGallery": [
+      {
+        "id": "hyd-img-1",
+        "src": "/assets/gallery/oct18/NIX09262.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 runners charging down the tree-lined ESCI Campus course",
+        "caption": "10K & 5K Timed Run pack charging through the tree-lined ESCI Campus course in Gachibowli, Hyderabad",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-2",
+        "src": "/assets/gallery/oct18/NIX09092.JPG",
+        "alt": "Hundreds of runners warming up in official FLEXATHON SDG 4 jerseys at ESCI Gachibowli",
+        "caption": "Pre-race assembly & guided mobility warm-up with hundreds of runners in official SDG 4 jerseys at ESCI Gachibowli",
+        "category": "Start Assembly"
+      },
+      {
+        "id": "hyd-img-3",
+        "src": "/assets/gallery/oct18/NIX09215.JPG",
+        "alt": "Runners striding through the iconic Engineering Staff College of India (ESCI) main arch",
+        "caption": "Runners striding past the Engineering Staff College of India (ESCI) main entrance gate on race morning",
+        "category": "Venue"
+      },
+      {
+        "id": "hyd-img-4",
+        "src": "/assets/gallery/oct18/NIX09990.JPG",
+        "alt": "Women's Open Podium winners holding official prize cheques and medals on the FLEXATHON stage",
+        "caption": "Women's Open Podium Ceremony — Equal prize pool winners honoured with official cheques, certificates & medals",
+        "category": "Podium"
+      },
+      {
+        "id": "hyd-img-5",
+        "src": "/assets/gallery/oct18/NIX09962.JPG",
+        "alt": "FLEXATHON 5K finishers proudly displaying their heavy-cast finisher medals",
+        "caption": "5K Timed Run finishers proudly showcasing their official FLEXATHON finisher medals and SDG 4 jerseys",
+        "category": "Finishers"
+      },
+      {
+        "id": "hyd-img-6",
+        "src": "/assets/gallery/oct18/NIX09941.JPG",
+        "alt": "10K Men's Open 1st Place ₹10,000 prize cheque presentation at FLEXATHON Hyderabad",
+        "caption": "10K Timed Run 1st Place (₹10,000) prize cheque presentation on the main FLEXATHON stage",
+        "category": "Podium"
+      },
+      {
+        "id": "hyd-img-7",
+        "src": "/assets/gallery/oct18/NIX09299.JPG",
+        "alt": "Long stream of runners along the coned ESCI Campus marathon course",
+        "caption": "Continuous stream of runners along the coned, marshalled ESCI Gachibowli course",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-8",
+        "src": "/assets/gallery/oct18/NIX09918.JPG",
+        "alt": "Families and young runners celebrating at the FLEXATHON finish line arch",
+        "caption": "Families, students, and young finishers celebrating together under the FLEXATHON finish arch",
+        "category": "Community"
+      },
+      {
+        "id": "hyd-img-9",
+        "src": "/assets/gallery/oct18/NIX00003.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 runners crossing the finish arch in official FLEXATHON jerseys",
+        "caption": "FLEXATHON Hyderabad 2026 — Finish line celebration under the official FLEXATHON arch",
+        "category": "Race Day"
+      },
+      {
+        "id": "hyd-img-10",
+        "src": "/assets/gallery/oct18/NIX09082.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 main stage and sunrise assembly at ESCI Gachibowli",
+        "caption": "Official FLEXATHON Main Stage & Sunrise Event Hub at ESCI Campus Gachibowli",
+        "category": "Event Hub"
+      }
+    ],
+    "sdgFocusIds": [4],
+    "raceCategories": [
+      {
+        "distance": "3K",
+        "name": "3K Fun Run",
+        "startTime": "06:45 AM",
+        "reportingTime": "05:30 AM",
+        "price": 749,
+        "priceLabel": "₹749 (Historical Standard Entry Fee)",
+        "timing": "Non-Timed (Participation)",
+        "ageEligibility": "8 years and above",
+        "perks": [
+          "Official Dry-Fit Runner T-Shirt",
+          "Finisher Medal",
+          "Non-Timed Participation Bib",
+          "Digital Finisher E-Certificate",
+          "Course Hydration & Medical Support",
+          "Post-Run Refreshments"
+        ],
+        "capacity": "Completed"
+      },
+      {
+        "distance": "5K",
+        "name": "5K Timed Run",
+        "startTime": "06:15 AM",
+        "reportingTime": "05:15 AM",
+        "price": 999,
+        "priceLabel": "₹999 (Historical Standard Entry Fee)",
+        "timing": "RFID Chip Timed",
+        "ageEligibility": "12 years and above",
+        "perks": [
+          "Official Dry-Fit Runner T-Shirt",
+          "RFID Timing Bib",
+          "Finisher Medal",
+          "Verified Timing E-Certificate",
+          "Course Hydration & Medical Support",
+          "Post-Run Refreshments",
+          "Eligible for ₹20,000 Category Prize Pool"
+        ],
+        "capacity": "Completed"
+      },
+      {
+        "distance": "10K",
+        "name": "10K Timed Run",
+        "startTime": "05:45 AM",
+        "reportingTime": "05:00 AM",
+        "price": 1099,
+        "priceLabel": "₹1,099 (Historical Standard Entry Fee)",
+        "timing": "RFID Chip Timed",
+        "ageEligibility": "15 years and above",
+        "perks": [
+          "Official Dry-Fit Runner T-Shirt",
+          "RFID Timing Bib",
+          "Finisher Medal",
+          "Verified Timing E-Certificate",
+          "Course Hydration, Energy Electrolytes & Medical Support",
+          "Post-Run Refreshments",
+          "Eligible for ₹40,000 Category Prize Pool"
+        ],
+        "capacity": "Completed"
+      }
+    ],
+    "schedule": [
+      { "time": "05:00 AM", "title": "Venue Gates Open & Baggage Counter", "detail": "Assembly at ESCI Campus, Gachibowli" },
+      { "time": "05:20 AM", "title": "10K Warm-Up & Race Briefing", "detail": "Guided mobility session at the main stage" },
+      { "time": "05:45 AM", "title": "10K Timed Run Flag-Off", "detail": "Official chip-timed start" },
+      { "time": "06:15 AM", "title": "5K Timed Run Flag-Off", "detail": "Official chip-timed start" },
+      { "time": "06:45 AM", "title": "3K Fun Run Flag-Off", "detail": "Community & family wave start" },
+      { "time": "07:30 AM", "title": "Post-Run Recovery & Refreshments", "detail": "Hydration, nutrition, and community celebration" },
+      { "time": "08:00 AM", "title": "Prize Distribution & SDG 4 Spotlight", "detail": "Podium ceremony for 10K & 5K Men and Women winners" }
+    ],
+    "routes": {
+      "summary": "Scenic, well-marshalled course starting and finishing at ESCI Campus, Gachibowli with hydration stations every 1.5–2 km, ambulance support, and course marshals.",
+      "startPoint": "ESCI Campus Main Ground, Gachibowli, Hyderabad",
+      "finishPoint": "ESCI Campus Main Ground, Gachibowli, Hyderabad"
+    },
+    "kitCollection": {
+      "status": "Completed prior to Race Day (October 2026)",
+      "notes": "Bibs, RFID timing chips, and official runner kits were distributed to registered participants prior to race day. On-spot bib collection was reserved for verified outstation runners."
+    },
+    "prizes": {
+      "totalPool": 60000,
+      "totalPoolLabel": "₹60,000 Historical Total Prize Pool",
+      "categories": [
+        {
+          "distance": "10K Timed Run",
+          "subPoolLabel": "₹40,000 Total (Men & Women)",
+          "men": [
+            { "place": "1st Place", "amount": "₹10,000" },
+            { "place": "2nd Place", "amount": "₹6,000" },
+            { "place": "3rd Place", "amount": "₹4,000" }
+          ],
+          "women": [
+            { "place": "1st Place", "amount": "₹10,000" },
+            { "place": "2nd Place", "amount": "₹6,000" },
+            { "place": "3rd Place", "amount": "₹4,000" }
+          ]
+        },
+        {
+          "distance": "5K Timed Run",
+          "subPoolLabel": "₹20,000 Total (Men & Women)",
+          "men": [
+            { "place": "1st Place", "amount": "₹5,000" },
+            { "place": "2nd Place", "amount": "₹3,000" },
+            { "place": "3rd Place", "amount": "₹2,000" }
+          ],
+          "women": [
+            { "place": "1st Place", "amount": "₹5,000" },
+            { "place": "2nd Place", "amount": "₹3,000" },
+            { "place": "3rd Place", "amount": "₹2,000" }
+          ]
+        }
+      ],
+      "note": "3K Fun Run was a non-timed community participation category where all finishers received an official Finisher Medal and E-Certificate."
+    },
+    "raceRules": [
+      "Winners are determined based on official RFID Gun/Net time verification by the race technical committee.",
+      "Participants must wear their assigned official bib visibly on the chest throughout the course and cross all timing mats.",
+      "Valid government-issued photo ID is mandatory for podium verification and prize disbursement.",
+      "Equal prize money is awarded across Men and Women open categories in both 10K and 5K timed runs."
+    ],
+    "faq": [
+      {
+        "q": "When and where did FLEXATHON 2026 Hyderabad take place?",
+        "a": "FLEXATHON 2026 Hyderabad took place on Sunday, 18 October 2026 at the Engineering Staff College of India (ESCI) Campus, Gachibowli, Hyderabad."
+      },
+      {
+        "q": "What is the current status of the Hyderabad 2026 edition?",
+        "a": "The Hyderabad 2026 edition has successfully concluded. Registration is closed, and this edition hub serves as the official historical archive and participant resource centre."
+      },
+      {
+        "q": "What were the race categories and historical entry fees for Hyderabad 2026?",
+        "a": "Hyderabad 2026 featured three categories: 3K Fun Run (historical entry fee ₹749, 06:45 AM flag-off), 5K Timed Run (historical entry fee ₹999, 06:15 AM flag-off), and 10K Timed Run (historical entry fee ₹1,099, 05:45 AM flag-off)."
+      },
+      {
+        "q": "Which Global Goal was highlighted in Hyderabad 2026?",
+        "a": "Hyderabad 2026 spotlighted UN Sustainable Development Goal 4: Quality Education — advocating inclusive, equitable education and learning opportunities for all."
+      },
+      {
+        "q": "Can Hyderabad 2026 participants still create or download their Runner Card?",
+        "a": "Yes! Registered Hyderabad 2026 participants can look up their registration by mobile number or upload a photo in the Hyderabad Runner Card Studio (/hydoct18/social-card) to generate and download their commemorative 1254×1254 runner card."
+      },
+      {
+        "q": "Where can I check Hyderabad 2026 race results and certificates?",
+        "a": "Visit the Hyderabad Results & Certificates page (/hydoct18/results) for official post-race verification updates, or contact the Flexon Sports Foundation helpdesk via WhatsApp (+91 90749 34014) or email (info@flexathonrun.org)."
+      }
+    ],
+    "partners": [
+      {
+        "scope": "edition",
+        "editionSlug": "hydoct18",
+        "category": "Venue Partner (Hyderabad 2026)",
+        "name": "Engineering Staff College of India (ESCI)",
+        "logo": "/assets/partners/esci-logo.png",
+        "url": ""
+      },
+      {
+        "scope": "edition",
+        "editionSlug": "hydoct18",
+        "category": "Hydration Partner (Hyderabad 2026)",
+        "name": "Tata Copper+",
+        "logo": "/assets/partners/tata-copper.png",
+        "url": ""
+      },
+      {
+        "scope": "edition",
+        "editionSlug": "hydoct18",
+        "category": "Entertainment Partner (Hyderabad 2026)",
+        "name": "SMAAASH",
+        "logo": "/assets/partners/smaaash.png",
+        "url": ""
+      },
+      {
+        "scope": "edition",
+        "editionSlug": "hydoct18",
+        "category": "Organic Nutrition Partner (Hyderabad 2026)",
+        "name": "Akshayakalpa Organic",
+        "logo": "/assets/partners/akshayakalpa.png",
+        "url": ""
+      }
+    ],
+    "discoveryPlatforms": [
+      { "name": "BookMyShow", "logo": "/assets/partners/1 BookMyShow.jpg" },
+      { "name": "iFinish", "logo": "/assets/partners/2 IFinish.png" },
+      { "name": "India Running", "logo": "/assets/partners/3 IndiaRunning.jpeg" },
+      { "name": "Townscript", "logo": "/assets/partners/4Townscript.png" },
+      { "name": "CityWoofer", "logo": "/assets/partners/5 CityWoofer.png" },
+      { "name": "District", "logo": "/assets/partners/6 District.png" }
+    ],
+    "organizer": "Flexon Sports Foundation",
+    "contact": {
+      "email": "info@flexathonrun.org",
+      "phone": "+91-9074934014",
+      "whatsapp": "https://wa.me/919074934014"
+    },
+    "registrationProvider": "Internal / Historical Discovery Partners",
+    "registrationUrl": null,
+    "registrationOpenAt": "2026-07-01T00:00:00+05:30",
+    "registrationCloseAt": "2026-10-16T23:59:59+05:30",
+    "resultsUrl": null,
+    "certificatesUrl": null,
+    "runnerCardSettings": {
+      "enabled": true,
+      "route": "/hydoct18/social-card",
+      "mode": "commemorative"
+    },
+    "status": "Completed",
+    "published": true,
+    "seoTitle": "FLEXATHON 2026 Hyderabad (Completed) | 18 Oct 2026 • ESCI Gachibowli • SDG 4",
+    "metaDescription": "Explore the official completed edition hub for FLEXATHON 2026 Hyderabad (18 October 2026, ESCI Gachibowli). View 3K/5K/10K race details, ₹60,000 prize pool, SDG 4 Quality Education spotlight, and commemorative runner cards.",
+    "ogImage": "/assets/brand/flexathon-2026-hyderabad-social-share.jpg",
+    "createdAt": "2026-06-15T10:00:00Z",
+    "updatedAt": "2026-10-29T10:00:00Z"
+  },
+  {
+    "id": "edition-kochi-next",
+    "slug": "kochi2027",
+    "publicPath": "/kochi2027",
+    "city": "Kochi",
+    "state": "Kerala",
+    "year": null,
+    "editionName": "FLEXATHON Kochi Edition",
+    "statusBadgeText": "Coming Soon • Next Announced Host City",
+    "eventDate": null,
+    "eventDateDisplay": "Date To Be Announced",
+    "timezone": "Asia/Kolkata",
+    "venue": "Venue in Kochi, Kerala — To Be Announced",
+    "venueAddress": "Official venue and course details will be published once confirmed with civic and institutional authorities in Kochi.",
+    "mapUrl": null,
+    "description": "The FLEXATHON movement heads next to Kochi, Kerala. Register your interest to receive verified updates as soon as the official race date, venue, categories, and Global Goal focus are announced by Flexon Sports Foundation.",
+    "heroAsset": "/assets/gallery/oct18/NIX09962.JPG",
+    "imageGallery": [
+      {
+        "id": "kochi-img-1",
+        "src": "/assets/gallery/oct18/NIX09962.JPG",
+        "alt": "FLEXATHON movement expanding to Kochi, Kerala — Finisher medals celebration",
+        "caption": "Kochi, Kerala — Next announced host city for the FLEXATHON multi-city running movement",
+        "category": "Announcement"
+      }
+    ],
+    "sdgFocusIds": [],
+    "raceCategories": [],
+    "schedule": [],
+    "routes": null,
+    "kitCollection": null,
+    "prizes": null,
+    "raceRules": [],
+    "faq": [
+      {
+        "q": "Has the date or venue for the FLEXATHON Kochi Edition been confirmed?",
+        "a": "Not yet. Kochi has been announced as the next FLEXATHON host city in Kerala, and the official event date, venue, route, race categories, pricing, and featured Global Goal will be published only after formal confirmation."
+      },
+      {
+        "q": "Is registration or ticket payment open for Kochi?",
+        "a": "No. Registration and payments are not open for the Kochi Edition. Please do not make payments to any unverified third-party links. You can register your interest on this page to be notified first when official registrations open."
+      },
+      {
+        "q": "How can running clubs, colleges, corporates, or sponsors in Kerala collaborate?",
+        "a": "Use the Kochi Interest & Collaboration form on the /kochi2027 page or the Master Partners page (/partners) to connect directly with the Flexon Sports Foundation organizing team."
+      }
+    ],
+    "partners": [],
+    "discoveryPlatforms": [],
+    "organizer": "Flexon Sports Foundation",
+    "contact": {
+      "email": "info@flexathonrun.org",
+      "phone": "+91-9074934014",
+      "whatsapp": "https://wa.me/919074934014"
+    },
+    "registrationProvider": null,
+    "registrationUrl": null,
+    "registrationOpenAt": null,
+    "registrationCloseAt": null,
+    "resultsUrl": null,
+    "certificatesUrl": null,
+    "runnerCardSettings": {
+      "enabled": false,
+      "route": null,
+      "mode": "disabled"
+    },
+    "status": "Coming Soon",
+    "published": true,
+    "seoTitle": "FLEXATHON Kochi Edition — Coming Soon | Kerala | The Global Goals Run",
+    "metaDescription": "FLEXATHON — The Global Goals Run is coming to Kochi, Kerala. Register your interest for verified updates on race dates, venue, categories, volunteering, and partnerships.",
+    "ogImage": "/assets/brand/flexathon-logo-full.png",
+    "createdAt": "2026-10-29T10:00:00Z",
+    "updatedAt": "2026-10-29T10:00:00Z"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ct_1788097776921_w01h",
+    "email": "dhanildasph@gmail.com",
+    "name": "Dhanildas P H",
+    "phone": "+919876543210",
+    "tag": "Marketing Leads",
+    "source": "Excel Import",
+    "createdAt": "2026-08-30T13:49:36.921Z",
+    "updatedAt": "2026-08-30T13:54:49.045Z"
+  },
+  {
+    "id": "ct_1788097776921_ciu1",
+    "email": "alex.runner@example.com",
+    "name": "Alex Runner",
+    "phone": "+919123456780",
+    "tag": "Munich 2026 Leads",
+    "source": "Excel Import",
+    "createdAt": "2026-08-30T13:49:36.921Z"
+  },
+  {
+    "id": "ct_1788097776921_4gdc",
+    "email": "sara.marathon@example.com",
+    "name": "Sara Marathon",
+    "phone": "+919811223344",
+    "tag": "Munich 2026 Leads",
+    "source": "Excel Import",
+    "createdAt": "2026-08-30T13:49:36.921Z"
+  },
+  {
+    "id": "ct_1788098089045_oe5y",
+    "email": "testrunner@example.com",
+    "tag": "Marketing Leads",
+    "source": "Excel (registrations_export_1787805283755.csv)",
+    "createdAt": "2026-08-30T13:54:49.045Z"
+  },
+  {
+    "id": "ct_1788098089045_zc41",
+    "email": "dhanildas@gmail.com",
+    "tag": "Marketing Leads",
+    "source": "Excel (registrations_export_1787805283755.csv)",
+    "createdAt": "2026-08-30T13:54:49.045Z"
+  },
+  {
+    "id": "ct_1788098089045_63ts",
+    "email": "danildasph@gmail.com",
+    "tag": "Marketing Leads",
+    "source": "Excel (registrations_export_1787805283755.csv)",
+    "createdAt": "2026-08-30T13:54:49.045Z"
+  },
+  {
+    "id": "ct_1788098089045_r60w",
+    "email": "paymenttest@example.com",
+    "tag": "Marketing Leads",
+    "source": "Excel (registrations_export_1787805283755.csv)",
+    "createdAt": "2026-08-30T13:54:49.045Z"
+  },
+  {
+    "id": "ct_1788098089045_49l4",
+    "email": "testoptional@example.com",
+    "tag": "Marketing Leads",
+    "source": "Excel (registrations_export_1787805283755.csv)",
+    "createdAt": "2026-08-30T13:54:49.045Z"
+  },
+  {
+    "id": "ct_1788098089045_pjt5",
+    "email": "pytester@example.com",
+    "tag": "Marketing Leads",
+    "source": "Excel (registrations_export_1787805283755.csv)",
+    "createdAt": "2026-08-30T13:54:49.045Z"
+  }
+]

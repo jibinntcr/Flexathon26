@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1787810248253,
+    "name": "Dhanil Das",
+    "email": "dhanildasph@gmail.com",
+    "phone": "+91 94970 63919",
+    "organisation": "Flexon Sports Foundation",
+    "enquiryType": "Partnership & Sponsorship",
+    "message": "This is a live test enquiry verifying both admin notification and user auto-acknowledgement email.",
+    "submittedAt": "2026-08-27T05:57:28.253Z"
+  },
+  {
+    "id": 1787810178898,
+    "name": "Dhanil Das",
+    "email": "dhanildasph@gmail.com",
+    "phone": "+919497063919",
+    "organisation": "Flexon",
+    "enquiryType": "Partnership & Sponsorship",
+    "message": "Hello! I would like to partner with FLEXATHON 2026 for student sponsorships.",
+    "submittedAt": "2026-08-27T05:56:18.898Z"
+  }
+]
