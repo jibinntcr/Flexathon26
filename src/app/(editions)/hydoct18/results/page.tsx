@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import HyderabadWinnersShowcase from '@/components/editions/HyderabadWinnersShowcase';
 import { ASSETS } from '@/lib/assets';
 
 interface VerifiedRunner {
@@ -336,6 +337,9 @@ export default function HyderabadResultsPage() {
                         </p>
                     </div>
                 </section>
+
+                {/* OFFICIAL HYDERABAD 2026 PODIUM CHAMPIONS & WINNERS */}
+                <HyderabadWinnersShowcase />
 
                 {/* INTERACTIVE VERIFICATION & CERTIFICATE STUDIO */}
                 <section style={{ padding: '48px 24px 72px', maxWidth: '1240px', margin: '0 auto' }}>

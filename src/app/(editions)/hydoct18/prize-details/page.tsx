@@ -4,6 +4,7 @@ import Link from "next/link";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import RegistrationClosedButton from "@/components/editions/RegistrationClosedButton";
+import HyderabadWinnersShowcase from "@/components/editions/HyderabadWinnersShowcase";
 
 export default function PrizeDetailsPage() {
   return (
@@ -444,6 +445,9 @@ export default function PrizeDetailsPage() {
         </div>
 
       </section>
+
+      {/* ── 6. OFFICIAL VERIFIED HYDERABAD 2026 WINNERS & PODIUM CHAMPIONS ── */}
+      <HyderabadWinnersShowcase />
 
       {/* ── 7. BOTTOM CTA SECTION ── */}
       <section style={{ padding: "0 24px 80px", maxWidth: "1280px", margin: "0 auto" }}>

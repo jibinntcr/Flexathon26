@@ -1046,6 +1046,63 @@
       ],
       "note": "3K Fun Run was a non-timed community participation category where all finishers received an official Finisher Medal and E-Certificate."
     },
+    "officialWinners": {
+      "announcementTitle": "Official Verified Winners & Podium Champions",
+      "editionTitle": "FLEXATHON 2026 Hyderabad",
+      "date": "18 October 2026",
+      "venue": "ESCI Campus, Gachibowli, Hyderabad",
+      "sdgFocus": "SDG 4: Quality Education",
+      "poster10k": "/assets/editions/oct18-10k-winners.jpg",
+      "poster5k": "/assets/editions/oct18-5k-winners.jpg",
+      "ceremonyPhotos": [
+        {
+          "src": "/assets/gallery/oct18/NIX09990.JPG",
+          "caption": "Official Podium Ceremony — 100% Equal cash prize cheques presented to Women's Open champions on the main FLEXATHON stage"
+        },
+        {
+          "src": "/assets/gallery/oct18/NIX09987.JPG",
+          "caption": "Podium Presentation — Honoring the 10K & 5K Champions at ESCI Gachibowli"
+        },
+        {
+          "src": "/assets/gallery/oct18/NIX09942.JPG",
+          "caption": "FLEXATHON Stage — Official Prize Cheque and Medals Handover Ceremony"
+        }
+      ],
+      "categories": [
+        {
+          "distance": "10K Global Goals Challenge",
+          "chipTimed": true,
+          "prizePool": "₹40,000",
+          "poster": "/assets/editions/oct18-10k-winners.jpg",
+          "men": [
+            { "rank": 1, "medal": "Gold", "name": "Vikas Bisne", "bib": "1011", "chipTime": "00:33:15", "prize": "₹10,000" },
+            { "rank": 2, "medal": "Silver", "name": "Sandeepkumar rameshwar", "bib": "1253", "chipTime": "00:33:38", "prize": "₹6,000" },
+            { "rank": 3, "medal": "Bronze", "name": "Rushi Wavre", "bib": "1007", "chipTime": "00:34:08", "prize": "₹4,000" }
+          ],
+          "women": [
+            { "rank": 1, "medal": "Gold", "name": "Neeta Salame", "bib": "1179", "chipTime": "00:45:22", "prize": "₹10,000" },
+            { "rank": 2, "medal": "Silver", "name": "Kavya Athlete", "bib": "1180", "chipTime": "00:46:13", "prize": "₹6,000" },
+            { "rank": 3, "medal": "Bronze", "name": "Meera Sahu", "bib": "1183", "chipTime": "00:47:39", "prize": "₹4,000" }
+          ]
+        },
+        {
+          "distance": "5K Fitness Run",
+          "chipTimed": true,
+          "prizePool": "₹20,000",
+          "poster": "/assets/editions/oct18-5k-winners.jpg",
+          "men": [
+            { "rank": 1, "medal": "Gold", "name": "Rahul Gandhar", "bib": "5209", "chipTime": "00:15:50", "prize": "₹5,000" },
+            { "rank": 2, "medal": "Silver", "name": "Manohar", "bib": "5242", "chipTime": "00:16:04", "prize": "₹3,000" },
+            { "rank": 3, "medal": "Bronze", "name": "Jagannath Pawar", "bib": "5001", "chipTime": "00:16:19", "prize": "₹2,000" }
+          ],
+          "women": [
+            { "rank": 1, "medal": "Gold", "name": "Richa Rai", "bib": "5020", "chipTime": "00:21:29", "prize": "₹5,000" },
+            { "rank": 2, "medal": "Silver", "name": "Tejasri Batte", "bib": "5153", "chipTime": "00:22:23", "prize": "₹3,000" },
+            { "rank": 3, "medal": "Bronze", "name": "Amna Anjum", "bib": "5135", "chipTime": "00:24:05", "prize": "₹2,000" }
+          ]
+        }
+      ]
+    },
     "raceRules": [
       "Winners are determined based on official RFID Gun/Net time verification by the race technical committee.",
       "Participants must wear their assigned official bib visibly on the chest throughout the course and cross all timing mats.",

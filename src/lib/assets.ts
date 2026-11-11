@@ -52,6 +52,8 @@ export const ASSETS = {
         oct18MainStage: '/assets/gallery/oct18/NIX09082.JPG',
         oct18FinishCelebration: '/assets/gallery/oct18/NIX00003.JPG',
         oct18FamilyFinishArch: '/assets/gallery/oct18/NIX09918.JPG',
+        oct18Winners10k: '/assets/editions/oct18-10k-winners.jpg',
+        oct18Winners5k: '/assets/editions/oct18-5k-winners.jpg',
     },
     partners: {
         esci: '/assets/partners/esci-logo.png',

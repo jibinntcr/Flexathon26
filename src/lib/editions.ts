@@ -40,6 +40,36 @@ export interface PrizeCategory {
     women: PrizePlace[];
 }
 
+export interface OfficialWinnerItem {
+    rank: number;
+    medal: 'Gold' | 'Silver' | 'Bronze' | string;
+    name: string;
+    bib: string;
+    chipTime: string;
+    prize: string;
+}
+
+export interface OfficialWinnerCategory {
+    distance: string;
+    chipTimed: boolean;
+    prizePool: string;
+    poster: string;
+    men: OfficialWinnerItem[];
+    women: OfficialWinnerItem[];
+}
+
+export interface OfficialWinners {
+    announcementTitle: string;
+    editionTitle: string;
+    date: string;
+    venue: string;
+    sdgFocus: string;
+    poster10k: string;
+    poster5k: string;
+    ceremonyPhotos?: { src: string; caption: string }[];
+    categories: OfficialWinnerCategory[];
+}
+
 export interface EditionPartner {
     scope: 'edition' | 'national';
     editionSlug?: string;
@@ -93,6 +123,7 @@ export interface Edition {
         categories: PrizeCategory[];
         note: string;
     } | null;
+    officialWinners?: OfficialWinners | null;
     raceRules: string[];
     faq: { q: string; a: string }[];
     partners: EditionPartner[];

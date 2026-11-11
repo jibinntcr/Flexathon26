@@ -6,6 +6,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import PartnerStrip from "@/components/layout/PartnerStrip";
 import RegistrationClosedButton from "@/components/editions/RegistrationClosedButton";
+import HyderabadWinnersShowcase from "@/components/editions/HyderabadWinnersShowcase";
 
 export default function Page() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -884,6 +885,11 @@ export default function Page() {
         </div>
         </div>
       </main>
+
+      {/* ========================================================================= */}
+      {/* 2. OFFICIAL VERIFIED HYDERABAD 2026 WINNERS & PODIUM CHAMPIONS           */}
+      {/* ========================================================================= */}
+      <HyderabadWinnersShowcase />
 
       {/* ========================================================================= */}
       {/* 3. RACE CATEGORIES & REGISTRATION TIERS (`#about` & `#race-info`)         */}

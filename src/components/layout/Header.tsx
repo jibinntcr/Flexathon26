@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import RegistrationClosedButton from "@/components/editions/RegistrationClosedButton";
@@ -13,6 +14,11 @@ interface HeaderProps {
 export default function Header({ activePage }: HeaderProps) {
   const pathname = usePathname() || "/";
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
 
   const isHydEdition = pathname === "/hydoct18" || pathname.startsWith("/hydoct18/");
   const isKochiEdition = pathname === "/kochi2027" || pathname.startsWith("/kochi2027/");
@@ -24,11 +30,14 @@ export default function Header({ activePage }: HeaderProps) {
   useEffect(() => {
     if (mobileMenuOpen) {
       document.body.style.overflow = "hidden";
+      document.documentElement.style.overflow = "hidden";
     } else {
       document.body.style.overflow = "";
+      document.documentElement.style.overflow = "";
     }
     return () => {
       document.body.style.overflow = "";
+      document.documentElement.style.overflow = "";
     };
   }, [mobileMenuOpen]);
 
@@ -447,26 +456,27 @@ export default function Header({ activePage }: HeaderProps) {
 
           <button
             type="button"
-            onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+            onClick={() => setMobileMenuOpen(true)}
             className="mobile-menu-toggle"
             style={{
               display: "none",
               alignItems: "center",
               justifyContent: "center",
-              background: "#f8fafc",
-              border: "1px solid #e2e8f0",
+              background: "#0F172A",
+              border: "1px solid #1E293B",
               borderRadius: "8px",
               minWidth: "44px",
               minHeight: "44px",
               fontSize: "22px",
               cursor: "pointer",
-              color: "#0d1b2a",
+              color: "#FFFFFF",
               padding: "6px",
+              boxShadow: "0 2px 8px rgba(15, 23, 42, 0.15)",
             }}
-            aria-label={mobileMenuOpen ? "Close Navigation Menu" : "Open Navigation Menu"}
+            aria-label="Open Navigation Menu"
             aria-expanded={mobileMenuOpen}
           >
-            {mobileMenuOpen ? "✕" : "☰"}
+            ☰
           </button>
         </div>
       </div>
@@ -571,182 +581,397 @@ export default function Header({ activePage }: HeaderProps) {
         </div>
       )}
 
-      {/* Mobile Nav Drawer */}
-      {mobileMenuOpen && (
+      {/* Bulletproof Mobile Navigation Drawer via React Portal directly into document.body */}
+      {mounted && mobileMenuOpen && createPortal(
         <div
-          className="mobile-drawer-wrap"
           role="dialog"
+          aria-modal="true"
           aria-label="Mobile Navigation Menu"
+          onClick={() => setMobileMenuOpen(false)}
           style={{
             position: "fixed",
-            top: "96px",
-            left: 0,
-            right: 0,
-            bottom: 0,
-            backgroundColor: "#FFFFFF",
-            borderTop: "1px solid #E2E8F0",
-            padding: "20px 20px 36px",
+            inset: 0,
+            backgroundColor: "rgba(7, 19, 36, 0.75)",
+            backdropFilter: "blur(8px)",
+            WebkitBackdropFilter: "blur(8px)",
+            zIndex: 999999,
             display: "flex",
-            flexDirection: "column",
-            zIndex: 9999,
-            overflowY: "auto",
-            boxShadow: "0 20px 25px -5px rgba(0,0,0,0.15)",
+            justifyContent: "flex-end",
+            animation: "fadeIn 0.2s ease-out",
           }}
         >
-          <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
-            {masterNavItems.map((item) => {
-              const isActive = isMasterLinkActive(item);
-              return (
-                <Link
-                  key={item.key}
-                  onClick={() => setMobileMenuOpen(false)}
-                  href={item.href}
-                  className="mobile-nav-link"
-                  style={{
-                    textDecoration: "none",
-                    minHeight: "46px",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "space-between",
-                    padding: "0 12px",
-                    borderRadius: "6px",
-                    fontSize: "14px",
-                    fontWeight: isActive ? 800 : 700,
-                    color: isActive ? "#C5192D" : "#1e293b",
-                    backgroundColor: isActive ? "#FFF1F2" : "transparent",
-                    borderBottom: "1px solid #F1F5F9",
-                  }}
-                >
-                  <span>{item.label}</span>
-                  {isActive && (
-                    <span
-                      style={{
-                        backgroundColor: "#C5192D",
-                        color: "#FFFFFF",
-                        fontSize: "10px",
-                        fontWeight: 900,
-                        padding: "2px 8px",
-                        borderRadius: "10px",
-                        letterSpacing: "0.5px",
-                      }}
-                    >
-                      ACTIVE
-                    </span>
-                  )}
-                </Link>
-              );
-            })}
-          </div>
-
-          {/* Quick Edition Switcher inside Mobile Drawer */}
           <div
+            onClick={(e) => e.stopPropagation()}
             style={{
-              marginTop: "16px",
-              paddingTop: "14px",
-              borderTop: "1px solid #E2E8F0",
+              width: "100%",
+              maxWidth: "420px",
+              height: "100%",
+              backgroundColor: "#FFFFFF",
+              display: "flex",
+              flexDirection: "column",
+              boxShadow: "-10px 0 40px rgba(0, 0, 0, 0.3)",
+              overflowY: "auto",
+              WebkitOverflowScrolling: "touch",
             }}
           >
+            {/* Top Bar inside Drawer */}
             <div
               style={{
-                fontSize: "11px",
-                fontWeight: 800,
-                color: "#64748B",
-                textTransform: "uppercase",
-                letterSpacing: "1px",
-                marginBottom: "8px",
-                padding: "0 4px",
+                padding: "16px 20px",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                borderBottom: "1px solid #E2E8F0",
+                background: "#071324",
+                color: "#FFFFFF",
+                position: "sticky",
+                top: 0,
+                zIndex: 10,
               }}
             >
-              Official City Editions
-            </div>
-            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px" }}>
-              <Link
-                href="/hydoct18"
-                onClick={() => setMobileMenuOpen(false)}
-                style={{
-                  textDecoration: "none",
-                  padding: "10px 12px",
-                  borderRadius: "8px",
-                  background: isHydEdition ? "#FFF1F2" : "#F8FAFC",
-                  border: isHydEdition ? "1px solid #FECDD3" : "1px solid #E2E8F0",
-                  color: "#0d1b2a",
-                  fontSize: "12.5px",
-                  fontWeight: 800,
-                }}
-              >
-                <div>Hyderabad 2026</div>
-                <div style={{ fontSize: "10px", color: "#059669", fontWeight: 800 }}>
-                  ✓ Completed Archive →
-                </div>
-              </Link>
-              <Link
-                href="/kochi2027"
-                onClick={() => setMobileMenuOpen(false)}
-                style={{
-                  textDecoration: "none",
-                  padding: "10px 12px",
-                  borderRadius: "8px",
-                  background: isKochiEdition ? "#FFF1F2" : "#F8FAFC",
-                  border: isKochiEdition ? "1px solid #FECDD3" : "1px solid #E2E8F0",
-                  color: "#0d1b2a",
-                  fontSize: "12.5px",
-                  fontWeight: 800,
-                }}
-              >
-                <div>Kochi Edition</div>
-                <div style={{ fontSize: "10px", color: "#0284C7", fontWeight: 800 }}>
-                  Next Host City →
-                </div>
-              </Link>
-            </div>
-          </div>
+              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+                <img
+                  src={ASSETS.brand.flexathonLogoTransparent}
+                  alt="FLEXATHON"
+                  style={{ height: "34px", width: "auto", filter: "brightness(0) invert(1)" }}
+                />
+              </div>
 
-          <div
-            style={{
-              paddingTop: "18px",
-              borderTop: "1px solid #E2E8F0",
-              marginTop: "16px",
-              display: "grid",
-              gridTemplateColumns: "1fr 1fr",
-              gap: "10px",
-            }}
-          >
-            <Link
-              href="/hydoct18"
-              onClick={() => setMobileMenuOpen(false)}
-              style={{
-                display: "block",
-                textAlign: "center",
-                backgroundColor: "#0F172A",
-                color: "#FFFFFF",
-                padding: "12px 14px",
-                borderRadius: "8px",
-                fontWeight: 800,
-                fontSize: "12.5px",
-                textDecoration: "none",
-              }}
-            >
-              Hyd ’26 Archive
-            </Link>
-            <Link
-              href="/kochi2027"
-              onClick={() => setMobileMenuOpen(false)}
-              style={{
-                display: "block",
-                textAlign: "center",
-                backgroundColor: "#C5192D",
-                color: "#FFFFFF",
-                padding: "12px 14px",
-                borderRadius: "8px",
-                fontWeight: 900,
-                fontSize: "12.5px",
-                textDecoration: "none",
-              }}
-            >
-              Kochi Edition →
-            </Link>
+              <button
+                type="button"
+                onClick={() => setMobileMenuOpen(false)}
+                style={{
+                  width: "44px",
+                  height: "44px",
+                  borderRadius: "50%",
+                  background: "rgba(255, 255, 255, 0.16)",
+                  border: "1px solid rgba(255, 255, 255, 0.35)",
+                  color: "#FFFFFF",
+                  fontSize: "20px",
+                  fontWeight: 900,
+                  cursor: "pointer",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
+                  lineHeight: 1,
+                }}
+                aria-label="Close navigation menu"
+              >
+                ✕
+              </button>
+            </div>
+
+            {/* Scrollable Drawer Body */}
+            <div style={{ padding: "20px 18px 48px", flex: 1, display: "flex", flexDirection: "column", gap: "20px" }}>
+              {/* 1. Main Navigation Links */}
+              <div>
+                <div
+                  style={{
+                    fontSize: "11px",
+                    fontWeight: 900,
+                    color: "#94A3B8",
+                    textTransform: "uppercase",
+                    letterSpacing: "1.2px",
+                    marginBottom: "8px",
+                    padding: "0 6px",
+                  }}
+                >
+                  Explore FLEXATHON
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "column", gap: "3px" }}>
+                  {masterNavItems.map((item) => {
+                    const isActive = isMasterLinkActive(item);
+                    return (
+                      <Link
+                        key={item.key}
+                        onClick={() => setMobileMenuOpen(false)}
+                        href={item.href}
+                        style={{
+                          textDecoration: "none",
+                          minHeight: "46px",
+                          display: "flex",
+                          alignItems: "center",
+                          justifyContent: "space-between",
+                          padding: "0 14px",
+                          borderRadius: "10px",
+                          fontSize: "15px",
+                          fontFamily: "'Barlow Condensed', sans-serif",
+                          fontWeight: isActive ? 900 : 800,
+                          letterSpacing: "0.6px",
+                          textTransform: "uppercase",
+                          color: isActive ? "#C5192D" : "#0F172A",
+                          backgroundColor: isActive ? "#FFF1F2" : "#F8FAFC",
+                          border: isActive ? "1px solid #FECDD3" : "1px solid #F1F5F9",
+                        }}
+                      >
+                        <span>{item.label}</span>
+                        {isActive ? (
+                          <span
+                            style={{
+                              backgroundColor: "#C5192D",
+                              color: "#FFFFFF",
+                              fontSize: "10px",
+                              fontWeight: 900,
+                              padding: "2px 8px",
+                              borderRadius: "10px",
+                            }}
+                          >
+                            CURRENT
+                          </span>
+                        ) : (
+                          <span style={{ color: "#94A3B8", fontSize: "14px" }}>›</span>
+                        )}
+                      </Link>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 2. Hyderabad 2026 Archive & Official Winners Section */}
+              <div
+                style={{
+                  background: "linear-gradient(135deg, #071324 0%, #0F243C 100%)",
+                  borderRadius: "14px",
+                  padding: "16px",
+                  color: "#FFFFFF",
+                  border: "1px solid rgba(255, 255, 255, 0.12)",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "10px" }}>
+                  <span
+                    style={{
+                      background: "#10B981",
+                      color: "#052E16",
+                      fontSize: "9.5px",
+                      fontWeight: 900,
+                      padding: "2px 8px",
+                      borderRadius: "999px",
+                      letterSpacing: "0.5px",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    ✓ Edition 01 Completed
+                  </span>
+                  <span style={{ fontSize: "11px", color: "#CBD5E1" }}>18 Oct 2026</span>
+                </div>
+
+                <div
+                  style={{
+                    fontFamily: "'Barlow Condensed', sans-serif",
+                    fontSize: "1.25rem",
+                    fontWeight: 900,
+                    textTransform: "uppercase",
+                    marginBottom: "12px",
+                    color: "#FFFFFF",
+                  }}
+                >
+                  Hyderabad 2026 Archive
+                </div>
+
+                <div style={{ display: "flex", flexDirection: "column", gap: "6px" }}>
+                  <Link
+                    href="/hydoct18#winners-podium"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      textDecoration: "none",
+                      padding: "8px 12px",
+                      borderRadius: "8px",
+                      background: "rgba(245, 158, 11, 0.2)",
+                      border: "1px solid rgba(245, 158, 11, 0.5)",
+                      color: "#FCD34D",
+                      fontSize: "13px",
+                      fontWeight: 800,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <span>🏆 Official Winners &amp; Podium</span>
+                    <span>→</span>
+                  </Link>
+
+                  <Link
+                    href="/hydoct18/results"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      textDecoration: "none",
+                      padding: "8px 12px",
+                      borderRadius: "8px",
+                      background: "rgba(255, 255, 255, 0.08)",
+                      color: "#FFFFFF",
+                      fontSize: "13px",
+                      fontWeight: 700,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <span>🏅 Results &amp; Finisher E-Certs</span>
+                    <span>→</span>
+                  </Link>
+
+                  <Link
+                    href="/hydoct18/gallery"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      textDecoration: "none",
+                      padding: "8px 12px",
+                      borderRadius: "8px",
+                      background: "rgba(255, 255, 255, 0.08)",
+                      color: "#FFFFFF",
+                      fontSize: "13px",
+                      fontWeight: 700,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <span>📸 All 121 Race Photos</span>
+                    <span>→</span>
+                  </Link>
+
+                  <Link
+                    href="/hydoct18/prize-details"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      textDecoration: "none",
+                      padding: "8px 12px",
+                      borderRadius: "8px",
+                      background: "rgba(255, 255, 255, 0.08)",
+                      color: "#FFFFFF",
+                      fontSize: "13px",
+                      fontWeight: 700,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <span>💰 ₹60,000 Prize Pool Structure</span>
+                    <span>→</span>
+                  </Link>
+
+                  <Link
+                    href="/hydoct18/social-card"
+                    onClick={() => setMobileMenuOpen(false)}
+                    style={{
+                      textDecoration: "none",
+                      padding: "8px 12px",
+                      borderRadius: "8px",
+                      background: "rgba(255, 255, 255, 0.08)",
+                      color: "#FFFFFF",
+                      fontSize: "13px",
+                      fontWeight: 700,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                    }}
+                  >
+                    <span>🪪 Runner Card Studio</span>
+                    <span>→</span>
+                  </Link>
+                </div>
+              </div>
+
+              {/* 3. Next City - Kochi 2027 */}
+              <div
+                style={{
+                  background: "#F0F9FF",
+                  border: "1.5px solid #BAE6FD",
+                  borderRadius: "14px",
+                  padding: "16px",
+                }}
+              >
+                <div style={{ display: "flex", alignItems: "center", gap: "6px", marginBottom: "6px" }}>
+                  <span
+                    style={{
+                      background: "#0284C7",
+                      color: "#FFFFFF",
+                      fontSize: "9px",
+                      fontWeight: 900,
+                      padding: "2px 7px",
+                      borderRadius: "999px",
+                      textTransform: "uppercase",
+                    }}
+                  >
+                    NEXT HOST CITY
+                  </span>
+                </div>
+                <div style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: "1.3rem", fontWeight: 900, color: "#0c1e33", textTransform: "uppercase" }}>
+                  FLEXATHON Kochi Edition
+                </div>
+                <p style={{ fontSize: "12.5px", color: "#475569", margin: "4px 0 12px", lineHeight: 1.5 }}>
+                  The national movement arrives next in Kerala. Pre-register early to secure priority bib access.
+                </p>
+                <Link
+                  href="/kochi2027"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: "block",
+                    textAlign: "center",
+                    background: "#0284C7",
+                    color: "#FFFFFF",
+                    padding: "10px 14px",
+                    borderRadius: "8px",
+                    fontFamily: "'Barlow Condensed', sans-serif",
+                    fontSize: "1rem",
+                    fontWeight: 900,
+                    textTransform: "uppercase",
+                    textDecoration: "none",
+                    letterSpacing: "0.6px",
+                  }}
+                >
+                  Register Interest for Kochi →
+                </Link>
+              </div>
+
+              {/* 4. Bottom Action Buttons */}
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "10px", marginTop: "auto" }}>
+                <Link
+                  href="/hydoct18/results"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: "block",
+                    textAlign: "center",
+                    backgroundColor: "#0F172A",
+                    color: "#FFFFFF",
+                    padding: "12px 14px",
+                    borderRadius: "10px",
+                    fontFamily: "'Barlow Condensed', sans-serif",
+                    fontWeight: 900,
+                    fontSize: "1rem",
+                    textTransform: "uppercase",
+                    textDecoration: "none",
+                    letterSpacing: "0.5px",
+                  }}
+                >
+                  🏆 Hyd Results
+                </Link>
+                <Link
+                  href="/contact"
+                  onClick={() => setMobileMenuOpen(false)}
+                  style={{
+                    display: "block",
+                    textAlign: "center",
+                    backgroundColor: "#C5192D",
+                    color: "#FFFFFF",
+                    padding: "12px 14px",
+                    borderRadius: "10px",
+                    fontFamily: "'Barlow Condensed', sans-serif",
+                    fontWeight: 900,
+                    fontSize: "1rem",
+                    textTransform: "uppercase",
+                    textDecoration: "none",
+                    letterSpacing: "0.5px",
+                  }}
+                >
+                  Contact Us →
+                </Link>
+              </div>
+            </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </header>
   );
