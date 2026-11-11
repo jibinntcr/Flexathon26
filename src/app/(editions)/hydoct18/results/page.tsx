@@ -6,6 +6,7 @@ import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import HyderabadWinnersShowcase from '@/components/editions/HyderabadWinnersShowcase';
 import { ASSETS } from '@/lib/assets';
+import { SITE_CONFIG } from '@/lib/siteConfig';
 
 interface VerifiedRunner {
     id: number;
@@ -24,9 +25,10 @@ export default function HyderabadResultsPage() {
     const [searchError, setSearchError] = useState('');
     const [matchedRunners, setMatchedRunners] = useState<VerifiedRunner[] | null>(null);
 
-    const [runnerName, setRunnerName] = useState('DHANILDAS');
+    // Initial state: unverified sample preview
+    const [runnerName, setRunnerName] = useState('PARTICIPANT NAME');
     const [category, setCategory] = useState<'10K' | '5K' | '3K'>('10K');
-    const [regId, setRegId] = useState('#FLX-10001');
+    const [regId, setRegId] = useState('#FLX-SAMPLE');
     const [cityOrg, setCityOrg] = useState('HYDERABAD RUNNERS');
     const [isVerifiedRecord, setIsVerifiedRecord] = useState(false);
 
@@ -51,11 +53,13 @@ export default function HyderabadResultsPage() {
                 setMatchedRunners([]);
                 setSearchError(
                     data.message ||
-                        'No registration record matched this phone number. You can still preview and generate your commemorative finisher certificate below.'
+                        'No registration record matched this mobile number. Please check the number used during registration or contact the support desk.'
                 );
+                setIsVerifiedRecord(false);
             }
         } catch {
-            setSearchError('Could not connect to verification service. Please try again or customize below.');
+            setSearchError('Could not connect to verification service. Please try again or submit a support ticket.');
+            setIsVerifiedRecord(false);
         } finally {
             setSearching(false);
         }
@@ -65,7 +69,7 @@ export default function HyderabadResultsPage() {
         setRunnerName((r.name || 'PARTICIPANT').toUpperCase());
         const cat = r.category?.includes('3') ? '3K' : r.category?.includes('5') ? '5K' : '10K';
         setCategory(cat);
-        setRegId(r.registrationId || '#FLX-10001');
+        setRegId(r.registrationId || `#FLX-${10000 + (r.id || 1)}`);
         setCityOrg((r.cityOrg || 'FLEXATHON RUNNER').toUpperCase());
         setIsVerifiedRecord(true);
     };
@@ -224,9 +228,16 @@ export default function HyderabadResultsPage() {
             ctx.font = "600 16px 'Inter', sans-serif";
             ctx.fillText('Engineering Staff College of India (ESCI)', 130, footerY + 28);
             ctx.fillText('Gachibowli, Hyderabad • 18 October 2026', 130, footerY + 52);
-            ctx.fillStyle = '#10B981';
+            ctx.fillStyle = isVerifiedRecord ? '#059669' : '#DC2626';
             ctx.font = "800 15px 'Inter', sans-serif";
-            ctx.fillText(isVerifiedRecord ? `✓ VERIFIED RECORD (${regId})` : '✓ OFFICIAL ARCHIVE EDITION', 130, footerY + 82);
+            const refCode = `FLX-HYD26-${regId.replace(/[^A-Z0-9]/gi, '') || 'SAMPLE'}`;
+            ctx.fillText(
+                isVerifiedRecord
+                    ? `✓ OFFICIAL VERIFIED RECORD • REF: ${refCode}`
+                    : '⚠️ UNVERIFIED SAMPLE PREVIEW • NOT AN OFFICIAL CERTIFICATE',
+                130,
+                footerY + 82
+            );
 
             // Center: SDG 4 Badge
             if (sdgImg && sdgImg.complete && sdgImg.naturalWidth > 0) {
@@ -247,6 +258,31 @@ export default function HyderabadResultsPage() {
             ctx.fillStyle = '#64748B';
             ctx.font = "700 14px 'Inter', sans-serif";
             ctx.fillText('United by Sport. Driven by Global Goals.', W - 130, footerY + 82);
+
+            // Prominent Diagonal Watermark for Unverified Records
+            if (!isVerifiedRecord) {
+                ctx.save();
+                ctx.translate(W / 2, H / 2);
+                ctx.rotate(-0.35);
+                ctx.textAlign = 'center';
+
+                // Semi-transparent red banner box
+                ctx.fillStyle = 'rgba(220, 38, 38, 0.08)';
+                ctx.fillRect(-680, -70, 1360, 140);
+                ctx.strokeStyle = 'rgba(220, 38, 38, 0.35)';
+                ctx.lineWidth = 3.5;
+                ctx.strokeRect(-680, -70, 1360, 140);
+
+                ctx.fillStyle = 'rgba(185, 28, 28, 0.42)';
+                ctx.font = "900 50px 'Inter', sans-serif";
+                ctx.fillText('SAMPLE PREVIEW • UNVERIFIED RECORD', 0, 10);
+
+                ctx.font = "700 20px 'Inter', sans-serif";
+                ctx.fillStyle = 'rgba(185, 28, 28, 0.52)';
+                ctx.fillText('OFFICIAL CERTIFICATE DOWNLOAD REQUIRES VERIFIED PARTICIPANT LOOKUP', 0, 44);
+
+                ctx.restore();
+            }
         };
 
         const logo = new Image();
@@ -271,11 +307,15 @@ export default function HyderabadResultsPage() {
     }, [runnerName, category, regId, cityOrg, isVerifiedRecord]);
 
     const handleDownloadCert = () => {
+        if (!isVerifiedRecord) {
+            setSearchError('Official certificate download is locked until verified via your registered mobile number.');
+            return;
+        }
         const canvas = certCanvasRef.current;
         if (!canvas) return;
         const link = document.createElement('a');
         const safeName = (runnerName.trim() || 'Runner').replace(/\s+/g, '_');
-        link.download = `FLEXATHON-2026-Hyderabad-Certificate-${safeName}-${category}.png`;
+        link.download = `FLEXATHON-2026-Hyderabad-Official-Certificate-${safeName}-${category}.png`;
         link.href = canvas.toDataURL('image/png');
         link.click();
     };
@@ -357,43 +397,30 @@ export default function HyderabadResultsPage() {
                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '12px', marginBottom: '16px' }}>
                             <div>
                                 <span style={{ fontSize: '0.74rem', fontWeight: 800, color: '#C5192D', textTransform: 'uppercase', letterSpacing: '1.2px' }}>
-                                    Step 1 • Instant Participant Lookup
+                                    Step 1 • Participant Authentication &amp; Lookup
                                 </span>
                                 <h2 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: '1.75rem', fontWeight: 900, textTransform: 'uppercase', margin: '4px 0 0', color: '#0c1e33' }}>
-                                    Look Up Your Hyderabad 2026 Registration by Mobile Number
+                                    Verify Your Official Result by Registered Mobile Number
                                 </h2>
                             </div>
-                            <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap' }}>
-                                <span style={{ fontSize: '0.78rem', color: '#64748B', fontWeight: 700, alignSelf: 'center' }}>Quick Demo Presets:</span>
-                                {[
-                                    { label: '10K Finisher', name: 'DHANILDAS', cat: '10K' as const, id: '#FLX-10108', org: 'HYDERABAD RUNNERS' },
-                                    { label: '5K Finisher', name: 'ANANYA REDDY', cat: '5K' as const, id: '#FLX-10245', org: 'GACHIBOWLI STRIDERS' },
-                                    { label: '3K Community', name: 'ROHAN SHARMA', cat: '3K' as const, id: '#FLX-10392', org: 'ESCI CAMPUS TEAM' },
-                                ].map((preset) => (
-                                    <button
-                                        key={preset.label}
-                                        type="button"
-                                        onClick={() => {
-                                            setRunnerName(preset.name);
-                                            setCategory(preset.cat);
-                                            setRegId(preset.id);
-                                            setCityOrg(preset.org);
-                                            setIsVerifiedRecord(true);
-                                        }}
-                                        style={{
-                                            padding: '6px 12px',
-                                            borderRadius: '999px',
-                                            border: '1px solid #CBD5E1',
-                                            background: '#F8FAFC',
-                                            color: '#0c1e33',
-                                            fontSize: '0.78rem',
-                                            fontWeight: 800,
-                                            cursor: 'pointer',
-                                        }}
-                                    >
-                                        {preset.label}
-                                    </button>
-                                ))}
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span
+                                    style={{
+                                        fontSize: '0.78rem',
+                                        fontWeight: 800,
+                                        padding: '5px 14px',
+                                        borderRadius: '999px',
+                                        background: isVerifiedRecord ? '#ECFDF5' : '#FEF2F2',
+                                        color: isVerifiedRecord ? '#059669' : '#DC2626',
+                                        border: isVerifiedRecord ? '1px solid #A7F3D0' : '1px solid #FECACA',
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        gap: '6px',
+                                    }}
+                                >
+                                    <span>{isVerifiedRecord ? '✓' : '🔒'}</span>
+                                    <span>{isVerifiedRecord ? 'Authenticated Record Active' : 'Official Download Locked'}</span>
+                                </span>
                             </div>
                         </div>
 
@@ -405,7 +432,7 @@ export default function HyderabadResultsPage() {
                                     setPhone(e.target.value);
                                     if (searchError) setSearchError('');
                                 }}
-                                placeholder="Enter registered 10-digit mobile / WhatsApp number..."
+                                placeholder="Enter registered 10-digit mobile number (e.g. 9876543210)..."
                                 style={{
                                     flex: '1 1 280px',
                                     padding: '13px 16px',
@@ -433,13 +460,19 @@ export default function HyderabadResultsPage() {
                                     cursor: searching ? 'not-allowed' : 'pointer',
                                 }}
                             >
-                                {searching ? 'Searching Records...' : '🔍 Verify & Load Certificate'}
+                                {searching ? 'Searching Database...' : '🔍 Authenticate & Unlock Certificate'}
                             </button>
                         </form>
 
                         {searchError && (
-                            <div style={{ marginTop: '12px', padding: '10px 14px', borderRadius: '8px', background: '#FEF2F2', border: '1px solid #FECACA', color: '#991B1B', fontSize: '0.86rem', fontWeight: 600 }}>
-                                {searchError}
+                            <div style={{ marginTop: '12px', padding: '12px 16px', borderRadius: '8px', background: '#FEF2F2', border: '1px solid #FECACA', color: '#991B1B', fontSize: '0.88rem', fontWeight: 600, display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '8px' }}>
+                                <span>{searchError}</span>
+                                <Link
+                                    href="/contact?edition=hydoct18&category=Results+%26+Certificate+Support"
+                                    style={{ color: '#C5192D', fontWeight: 800, textDecoration: 'underline' }}
+                                >
+                                    Submit Support Ticket →
+                                </Link>
                             </div>
                         )}
 
@@ -491,8 +524,18 @@ export default function HyderabadResultsPage() {
                                 <span style={{ fontSize: '0.82rem', fontWeight: 800, color: '#FDE047', textTransform: 'uppercase', letterSpacing: '1px' }}>
                                     📄 Official Finisher E-Certificate Preview (1600 × 1130 px)
                                 </span>
-                                <span style={{ fontSize: '0.75rem', fontWeight: 800, color: '#6EE7B7', background: 'rgba(16,185,129,0.16)', padding: '4px 10px', borderRadius: '999px' }}>
-                                    Print-Ready PNG
+                                <span
+                                    style={{
+                                        fontSize: '0.75rem',
+                                        fontWeight: 800,
+                                        color: isVerifiedRecord ? '#6EE7B7' : '#FCA5A5',
+                                        background: isVerifiedRecord ? 'rgba(16,185,129,0.16)' : 'rgba(239,68,68,0.2)',
+                                        padding: '4px 10px',
+                                        borderRadius: '999px',
+                                        border: isVerifiedRecord ? '1px solid rgba(52,211,153,0.3)' : '1px solid rgba(239,68,68,0.4)',
+                                    }}
+                                >
+                                    {isVerifiedRecord ? '✓ Verified Record Active' : '⚠️ Sample Preview • Watermarked'}
                                 </span>
                             </div>
 
@@ -500,33 +543,72 @@ export default function HyderabadResultsPage() {
                                 style={{
                                     borderRadius: '14px',
                                     overflow: 'hidden',
-                                    border: '2px solid rgba(212, 175, 55, 0.45)',
+                                    border: isVerifiedRecord ? '2px solid rgba(212, 175, 55, 0.55)' : '2px solid rgba(239, 68, 68, 0.45)',
                                     background: '#FFFFFF',
                                 }}
                             >
                                 <canvas ref={certCanvasRef} style={{ width: '100%', height: 'auto', display: 'block' }} />
                             </div>
 
-                            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '18px' }}>
+                            {/* Verification Warning or Success Banner */}
+                            {!isVerifiedRecord ? (
+                                <div
+                                    style={{
+                                        marginTop: '16px',
+                                        padding: '12px 16px',
+                                        borderRadius: '10px',
+                                        background: 'rgba(239, 68, 68, 0.14)',
+                                        border: '1px solid rgba(239, 68, 68, 0.35)',
+                                        color: '#FECDD3',
+                                        fontSize: '0.85rem',
+                                        lineHeight: 1.5,
+                                    }}
+                                >
+                                    <strong>🔒 Official Download Locked:</strong> This preview is watermarked. To generate and download your authoritative, unwatermarked Finisher E-Certificate, authenticate your registered phone number in Step 1.
+                                </div>
+                            ) : (
+                                <div
+                                    style={{
+                                        marginTop: '16px',
+                                        padding: '12px 16px',
+                                        borderRadius: '10px',
+                                        background: 'rgba(16, 185, 129, 0.16)',
+                                        border: '1px solid rgba(16, 185, 129, 0.45)',
+                                        color: '#A7F3D0',
+                                        fontSize: '0.85rem',
+                                        lineHeight: 1.5,
+                                    }}
+                                >
+                                    <strong>✓ Authenticated Participant Record:</strong> Finisher certificate unlocked for <strong>{runnerName}</strong> ({category} • Ref: {regId}). Official record fields are locked to preserve certificate authenticity.
+                                </div>
+                            )}
+
+                            <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap', marginTop: '16px' }}>
                                 <button
                                     type="button"
                                     onClick={handleDownloadCert}
+                                    disabled={!isVerifiedRecord}
                                     style={{
                                         flex: '1 1 240px',
                                         padding: '15px 22px',
                                         borderRadius: '10px',
                                         border: 'none',
-                                        background: 'linear-gradient(135deg, #10B981 0%, #059669 100%)',
-                                        color: '#FFFFFF',
+                                        background: isVerifiedRecord
+                                            ? 'linear-gradient(135deg, #10B981 0%, #059669 100%)'
+                                            : '#334155',
+                                        color: isVerifiedRecord ? '#FFFFFF' : '#94A3B8',
                                         fontFamily: "'Barlow Condensed', sans-serif",
                                         fontWeight: 900,
                                         fontSize: '1.12rem',
                                         letterSpacing: '1px',
                                         textTransform: 'uppercase',
-                                        cursor: 'pointer',
+                                        cursor: isVerifiedRecord ? 'pointer' : 'not-allowed',
+                                        boxShadow: isVerifiedRecord ? '0 6px 20px rgba(16, 185, 129, 0.35)' : 'none',
                                     }}
                                 >
-                                    ⬇️ Download Finisher E-Certificate (PNG)
+                                    {isVerifiedRecord
+                                        ? '⬇️ Download Official Finisher Certificate (PNG)'
+                                        : '🔒 Official Download Locked — Verify Above'}
                                 </button>
                                 <Link
                                     href={`/hydoct18/social-card?name=${encodeURIComponent(runnerName)}&category=${encodeURIComponent(category)}&city=${encodeURIComponent(cityOrg)}`}
@@ -550,7 +632,7 @@ export default function HyderabadResultsPage() {
                             </div>
                         </div>
 
-                        {/* Right: Customize Certificate Fields & Official Support */}
+                        {/* Right: Certificate Details & Support Desk */}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
                             <div
                                 style={{
@@ -561,22 +643,33 @@ export default function HyderabadResultsPage() {
                                     boxShadow: '0 8px 24px rgba(12, 30, 51, 0.04)',
                                 }}
                             >
-                                <h3 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: '1.5rem', fontWeight: 900, textTransform: 'uppercase', margin: '0 0 6px', color: '#0c1e33' }}>
-                                    Personalize Certificate Details
-                                </h3>
-                                <p style={{ fontSize: '0.88rem', color: '#64748B', margin: '0 0 20px' }}>
-                                    Update your name, category, or club affiliation below — the certificate preview updates live.
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+                                    <h3 style={{ fontFamily: "'Barlow Condensed', sans-serif", fontSize: '1.5rem', fontWeight: 900, textTransform: 'uppercase', margin: 0, color: '#0c1e33' }}>
+                                        {isVerifiedRecord ? '🔒 Verified Participant Details' : 'Preview Certificate Details'}
+                                    </h3>
+                                    {isVerifiedRecord && (
+                                        <span style={{ fontSize: '0.72rem', background: '#ECFDF5', color: '#059669', padding: '3px 8px', borderRadius: '6px', fontWeight: 800 }}>
+                                            LOCKED
+                                        </span>
+                                    )}
+                                </div>
+                                <p style={{ fontSize: '0.88rem', color: '#64748B', margin: '0 0 20px', lineHeight: 1.5 }}>
+                                    {isVerifiedRecord
+                                        ? 'Official result fields are locked to preserve certificate authenticity. Need a spelling or timing correction? Use the official support links below.'
+                                        : 'Preview mode: You may type a name or choose a category below to test sample rendering. Official certificates require phone verification in Step 1.'}
                                 </p>
 
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}>
                                     <div>
                                         <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 800, color: '#334155', textTransform: 'uppercase', marginBottom: '6px' }}>
-                                            Participant Full Name
+                                            Participant Full Name {isVerifiedRecord ? '(Locked)' : ''}
                                         </label>
                                         <input
                                             type="text"
                                             value={runnerName}
                                             maxLength={28}
+                                            readOnly={isVerifiedRecord}
+                                            disabled={isVerifiedRecord}
                                             onChange={(e) => setRunnerName(e.target.value.toUpperCase())}
                                             style={{
                                                 width: '100%',
@@ -586,19 +679,23 @@ export default function HyderabadResultsPage() {
                                                 fontSize: '0.95rem',
                                                 fontWeight: 700,
                                                 boxSizing: 'border-box',
+                                                background: isVerifiedRecord ? '#F8FAFC' : '#FFFFFF',
+                                                color: isVerifiedRecord ? '#475569' : '#0c1e33',
+                                                cursor: isVerifiedRecord ? 'not-allowed' : 'text',
                                             }}
                                         />
                                     </div>
 
                                     <div>
                                         <label style={{ display: 'block', fontSize: '0.78rem', fontWeight: 800, color: '#334155', textTransform: 'uppercase', marginBottom: '6px' }}>
-                                            Race Category Completed
+                                            Race Category Completed {isVerifiedRecord ? '(Locked)' : ''}
                                         </label>
                                         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: '8px' }}>
                                             {(['10K', '5K', '3K'] as const).map((cat) => (
                                                 <button
                                                     key={cat}
                                                     type="button"
+                                                    disabled={isVerifiedRecord}
                                                     onClick={() => setCategory(cat)}
                                                     style={{
                                                         padding: '10px',
@@ -608,7 +705,8 @@ export default function HyderabadResultsPage() {
                                                         color: category === cat ? '#C5192D' : '#334155',
                                                         fontWeight: 800,
                                                         fontSize: '0.9rem',
-                                                        cursor: 'pointer',
+                                                        cursor: isVerifiedRecord ? 'not-allowed' : 'pointer',
+                                                        opacity: isVerifiedRecord && category !== cat ? 0.45 : 1,
                                                     }}
                                                 >
                                                     {cat} {cat === '3K' ? 'Fun Run' : 'Timed'}
@@ -626,6 +724,8 @@ export default function HyderabadResultsPage() {
                                                 type="text"
                                                 value={regId}
                                                 maxLength={16}
+                                                readOnly={isVerifiedRecord}
+                                                disabled={isVerifiedRecord}
                                                 onChange={(e) => setRegId(e.target.value.toUpperCase())}
                                                 style={{
                                                     width: '100%',
@@ -635,6 +735,9 @@ export default function HyderabadResultsPage() {
                                                     fontSize: '0.9rem',
                                                     fontWeight: 700,
                                                     boxSizing: 'border-box',
+                                                    background: isVerifiedRecord ? '#F8FAFC' : '#FFFFFF',
+                                                    color: isVerifiedRecord ? '#475569' : '#0c1e33',
+                                                    cursor: isVerifiedRecord ? 'not-allowed' : 'text',
                                                 }}
                                             />
                                         </div>
@@ -646,6 +749,8 @@ export default function HyderabadResultsPage() {
                                                 type="text"
                                                 value={cityOrg}
                                                 maxLength={26}
+                                                readOnly={isVerifiedRecord}
+                                                disabled={isVerifiedRecord}
                                                 onChange={(e) => setCityOrg(e.target.value.toUpperCase())}
                                                 style={{
                                                     width: '100%',
@@ -655,14 +760,36 @@ export default function HyderabadResultsPage() {
                                                     fontSize: '0.9rem',
                                                     fontWeight: 700,
                                                     boxSizing: 'border-box',
+                                                    background: isVerifiedRecord ? '#F8FAFC' : '#FFFFFF',
+                                                    color: isVerifiedRecord ? '#475569' : '#0c1e33',
+                                                    cursor: isVerifiedRecord ? 'not-allowed' : 'text',
                                                 }}
                                             />
                                         </div>
                                     </div>
+
+                                    {/* Separate Commemorative Card Callout */}
+                                    <div
+                                        style={{
+                                            marginTop: '6px',
+                                            padding: '14px',
+                                            borderRadius: '10px',
+                                            background: '#FFF1F2',
+                                            border: '1px solid #FECDD3',
+                                            fontSize: '0.84rem',
+                                            color: '#991B1B',
+                                            lineHeight: 1.5,
+                                        }}
+                                    >
+                                        <strong>Looking for a customizable social card?</strong> The official certificate above is locked to verified race records. To upload your own photo and customize runner tags for Instagram, use the{' '}
+                                        <Link href="/hydoct18/social-card" style={{ color: '#C5192D', fontWeight: 800, textDecoration: 'underline' }}>
+                                            Commemorative Runner Card Studio →
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
 
-                            {/* Official Timing Helpdesk Box */}
+                            {/* Official Timing & Correction Desk Box */}
                             <div
                                 style={{
                                     background: '#FFFFFF',
@@ -672,14 +799,14 @@ export default function HyderabadResultsPage() {
                                 }}
                             >
                                 <div style={{ fontSize: '0.75rem', fontWeight: 800, color: '#0369A1', textTransform: 'uppercase', letterSpacing: '1px', marginBottom: '6px' }}>
-                                    Official Timing &amp; Podium Verification Helpdesk
+                                    Official Timing &amp; Certificate Correction Desk
                                 </div>
                                 <p style={{ fontSize: '0.88rem', color: '#475569', lineHeight: 1.6, margin: '0 0 16px' }}>
-                                    Need assistance with RFID chip timing verification or podium prize documentation for the 10K &amp; 5K categories? Contact the Flexon Sports Foundation race desk directly.
+                                    Need assistance with your RFID timing classification, certificate spelling, or podium credentials? Contact the Flexon Sports Foundation race desk directly.
                                 </p>
                                 <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap' }}>
                                     <a
-                                        href="https://wa.me/919074934014"
+                                        href={SITE_CONFIG.contacts.whatsappHelpdeskPrefill}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         style={{
@@ -692,7 +819,21 @@ export default function HyderabadResultsPage() {
                                             textDecoration: 'none',
                                         }}
                                     >
-                                        💬 WhatsApp Helpdesk (+91 90749 34014)
+                                        💬 WhatsApp ({SITE_CONFIG.contacts.helpline})
+                                    </a>
+                                    <a
+                                        href={`mailto:${SITE_CONFIG.contacts.email}?subject=Certificate%20Correction%20Request%20-%20${encodeURIComponent(regId)}`}
+                                        style={{
+                                            background: '#0F172A',
+                                            color: '#FFFFFF',
+                                            padding: '10px 16px',
+                                            borderRadius: '8px',
+                                            fontSize: '0.82rem',
+                                            fontWeight: 800,
+                                            textDecoration: 'none',
+                                        }}
+                                    >
+                                        ✉️ Request Timing Correction
                                     </a>
                                     <Link
                                         href="/contact?edition=hydoct18&category=Results+%26+Certificate+Support"
@@ -706,7 +847,7 @@ export default function HyderabadResultsPage() {
                                             textDecoration: 'none',
                                         }}
                                     >
-                                        ✉️ Submit Timing Support Ticket
+                                        Support Ticket Form
                                     </Link>
                                 </div>
                             </div>

@@ -123,12 +123,12 @@ export default function Header({ activePage }: HeaderProps) {
         .top-nav-link {
           text-decoration: none;
           color: #0f172a;
-          font-size: 11.5px;
+          font-size: 11px;
           font-weight: 800;
           text-transform: uppercase;
-          letter-spacing: 0.65px;
+          letter-spacing: 0.5px;
           position: relative;
-          padding: 8px 13px;
+          padding: 7px 11px;
           border-radius: 999px;
           transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
           display: inline-flex;
@@ -214,12 +214,12 @@ export default function Header({ activePage }: HeaderProps) {
           }
           .top-nav-link {
             font-size: 10.5px !important;
-            padding: 7px 10px !important;
-            letter-spacing: 0.35px !important;
+            padding: 6px 9px !important;
+            letter-spacing: 0.3px !important;
           }
         }
 
-        @media (max-width: 1150px) {
+        @media (max-width: 1240px) {
           .desktop-menu-nav {
             display: none !important;
           }
@@ -429,28 +429,10 @@ export default function Header({ activePage }: HeaderProps) {
                 />
               </>
             ) : (
-              <>
-                <Link
-                  href="/hydoct18"
-                  style={{
-                    background: "#F8FAFC",
-                    color: "#0F172A",
-                    border: "1px solid #CBD5E1",
-                    padding: "10px 18px",
-                    borderRadius: "999px",
-                    fontSize: "11.5px",
-                    fontWeight: 800,
-                    textDecoration: "none",
-                    whiteSpace: "nowrap",
-                  }}
-                >
-                  🏛️ Hyd ’26 Archive
-                </Link>
-                <Link href="/kochi2027" className="header-register-btn">
-                  <span>KOCHI EDITION</span>
-                  <span aria-hidden="true">→</span>
-                </Link>
-              </>
+              <Link href="/kochi2027" className="header-register-btn">
+                <span>KOCHI EDITION</span>
+                <span aria-hidden="true">→</span>
+              </Link>
             )}
           </div>
 
@@ -901,7 +883,7 @@ export default function Header({ activePage }: HeaderProps) {
                   FLEXATHON Kochi Edition
                 </div>
                 <p style={{ fontSize: "12.5px", color: "#475569", margin: "4px 0 12px", lineHeight: 1.5 }}>
-                  The national movement arrives next in Kerala. Pre-register early to secure priority bib access.
+                  The national movement arrives next in Kerala. Receive Kochi edition updates and announcements as soon as confirmed.
                 </p>
                 <Link
                   href="/kochi2027"

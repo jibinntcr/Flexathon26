@@ -33,5 +33,5 @@ export default function SubLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <main>{children}</main>;
+  return <>{children}</>;
 }

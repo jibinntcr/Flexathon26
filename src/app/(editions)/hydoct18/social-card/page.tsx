@@ -371,13 +371,12 @@ function SocialCardPageContent() {
     }
   };
 
-  // Caption text
-  const shareCaption = `I'm participating in #Flexathon2026! 🏃
-Running for the Global Goals in Hyderabad. 🌍
-Sunday, 18 October 2026 at ESCI, Gachibowli.
-Join me and register at: https://flexathonrun.org
+  // Caption text (Retrospective / Completed celebration)
+  const shareCaption = `Proud finisher at FLEXATHON 2026 Hyderabad! 🏃🏅
+Ran for the United Nations Global Goals (SDG 4 Quality Education) at ESCI Gachibowli on 18 October 2026.
+Check results & official race archive at: https://flexathonrun.org/hydoct18
 
-#Flexathon #GlobalGoalsRun #HyderabadRunners #FitnessForACause`;
+#FlexathonRun #GlobalGoalsRun #HyderabadRunners #FitnessForACause #SDG4`;
 
   const handleCopyCaption = async () => {
     try {

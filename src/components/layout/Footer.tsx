@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import PartnerStrip from "./PartnerStrip";
 import { ASSETS } from "@/lib/assets";
+import { SITE_CONFIG } from "@/lib/siteConfig";
 
 interface FooterProps {
   showPartnerStrip?: boolean;
@@ -177,7 +178,7 @@ export default function Footer({ showPartnerStrip = true }: FooterProps) {
               </h4>
               <div style={{ display: "flex", flexDirection: "column", gap: "9px", fontSize: "13.5px" }}>
                 <Link href="/" style={{ color: "#E2E8F0", textDecoration: "none" }}>
-                  Master Platform Home
+                  Home
                 </Link>
                 <Link href="/about" style={{ color: "#E2E8F0", textDecoration: "none" }}>
                   About FLEXATHON &amp; Foundation
@@ -223,10 +224,10 @@ export default function Footer({ showPartnerStrip = true }: FooterProps) {
                   Official Media &amp; Photo Gallery
                 </Link>
                 <Link href="/partners" style={{ color: "#E2E8F0", textDecoration: "none" }}>
-                  Partners &amp; Institutional Sponsors
+                  Partners &amp; Ecosystem
                 </Link>
                 <Link href="/get-involved" style={{ color: "#E2E8F0", textDecoration: "none" }}>
-                  Volunteer &amp; Running Club Cohorts
+                  Volunteering &amp; Community
                 </Link>
               </div>
             </div>
@@ -311,35 +312,35 @@ export default function Footer({ showPartnerStrip = true }: FooterProps) {
                 <div>
                   📞 <strong>Helpline:</strong>{" "}
                   <a
-                    href="tel:+919074934014"
+                    href={`tel:${SITE_CONFIG.contacts.helplineRaw}`}
                     style={{ color: "#FDE047", textDecoration: "none", fontWeight: 700 }}
                   >
-                    +91-9074934014
+                    {SITE_CONFIG.contacts.helpline}
                   </a>
                 </div>
                 <div>
                   ✉️ <strong>Official Email:</strong>{" "}
                   <a
-                    href="mailto:info@flexathonrun.org"
+                    href={SITE_CONFIG.contacts.emailMailto}
                     style={{ color: "#FDE047", textDecoration: "none", fontWeight: 700 }}
                   >
-                    info@flexathonrun.org
+                    {SITE_CONFIG.contacts.email}
                   </a>
                 </div>
                 <div>
                   📸 <strong>Instagram:</strong>{" "}
                   <a
-                    href="https://www.instagram.com/flexathon_official"
+                    href={SITE_CONFIG.socials.instagramUrl}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: "#FDE047", textDecoration: "none", fontWeight: 700 }}
                   >
-                    @flexathon_official ↗
+                    {SITE_CONFIG.socials.instagramHandle} ↗
                   </a>
                 </div>
                 <div style={{ marginTop: "8px", display: "flex", flexWrap: "wrap", gap: "8px" }}>
                   <a
-                    href="https://wa.me/919074934014?text=Hi%20FLEXATHON%20Team%2C%20I%20have%20an%20enquiry%20regarding%20FLEXATHON."
+                    href={SITE_CONFIG.contacts.whatsappHelpdeskPrefill}
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{
@@ -394,16 +395,7 @@ export default function Footer({ showPartnerStrip = true }: FooterProps) {
             }}
           >
             <div style={{ maxWidth: "900px", lineHeight: 1.6 }}>
-              FLEXATHON — The Global Goals Run is an independent sporting and social-impact initiative by{" "}
-              <a
-                href="https://flexonsports.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{ color: "#E2E8F0", fontWeight: 600 }}
-              >
-                Flexon Sports Foundation
-              </a>{" "}
-              advancing awareness and community action for the 17 United Nations Sustainable Development Goals (SDGs). Not affiliated with or endorsed by the United Nations.
+              {SITE_CONFIG.unNotice}
             </div>
             <div
               style={{
@@ -420,7 +412,7 @@ export default function Footer({ showPartnerStrip = true }: FooterProps) {
               <span>•</span>
               <span>Developed &amp; Maintained by</span>
               <a
-                href="https://infinio.co.in/"
+                href={SITE_CONFIG.developer.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -431,7 +423,7 @@ export default function Footer({ showPartnerStrip = true }: FooterProps) {
                   transition: "color 0.2s ease",
                 }}
               >
-                Infinio Technology Solutions
+                {SITE_CONFIG.developer.name}
               </a>
             </div>
           </div>

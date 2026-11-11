@@ -1,11 +1,14 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, Suspense } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import { SITE_CONFIG } from '@/lib/siteConfig';
 
-export default function ContactPage() {
+function ContactFormContent() {
+    const searchParams = useSearchParams();
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -24,6 +27,40 @@ export default function ContactPage() {
         status: 'idle',
         message: '',
     });
+
+    // Map URL query parameters to stable category and edition dropdown values
+    useEffect(() => {
+        const catParam = searchParams?.get('category') || '';
+        const edParam = searchParams?.get('edition') || '';
+
+        if (edParam) {
+            const lowerEd = edParam.toLowerCase();
+            if (lowerEd.includes('kochi')) {
+                setFormData((prev) => ({ ...prev, edition: 'kochi2027' }));
+            } else if (lowerEd.includes('hyd')) {
+                setFormData((prev) => ({ ...prev, edition: 'hydoct18' }));
+            } else if (lowerEd === 'master') {
+                setFormData((prev) => ({ ...prev, edition: 'master' }));
+            }
+        }
+
+        if (catParam) {
+            const lowerCat = catParam.toLowerCase();
+            if (lowerCat.includes('host') || lowerCat.includes('city') || lowerCat.includes('proposal')) {
+                setFormData((prev) => ({ ...prev, category: 'Host City Proposal' }));
+            } else if (lowerCat.includes('kochi') || lowerCat.includes('interest') || lowerCat.includes('update')) {
+                setFormData((prev) => ({ ...prev, category: 'Kochi Edition Interest', edition: 'kochi2027' }));
+            } else if (lowerCat.includes('partner') || lowerCat.includes('sponsor')) {
+                setFormData((prev) => ({ ...prev, category: 'Partnership / Sponsorship' }));
+            } else if (lowerCat.includes('volunt')) {
+                setFormData((prev) => ({ ...prev, category: 'Volunteer Application' }));
+            } else if (lowerCat.includes('school') || lowerCat.includes('corp') || lowerCat.includes('college') || lowerCat.includes('club')) {
+                setFormData((prev) => ({ ...prev, category: 'School / Corporate Participation' }));
+            } else if (lowerCat.includes('result') || lowerCat.includes('cert') || lowerCat.includes('support') || lowerCat.includes('timing')) {
+                setFormData((prev) => ({ ...prev, category: 'Results & Certificate Support', edition: 'hydoct18' }));
+            }
+        }
+    }, [searchParams]);
 
     const validate = () => {
         const next: Record<string, string> = {};
@@ -175,19 +212,19 @@ export default function ContactPage() {
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '0.92rem', color: '#334155' }}>
                                     <div>
                                         <strong style={{ display: 'block', color: '#0c1e33' }}>Official Email:</strong>
-                                        <a href="mailto:info@flexathonrun.org" style={{ color: '#C5192D', fontWeight: 700, textDecoration: 'none' }}>
-                                            info@flexathonrun.org
+                                        <a href={SITE_CONFIG.contacts.emailMailto} style={{ color: '#C5192D', fontWeight: 700, textDecoration: 'none' }}>
+                                            {SITE_CONFIG.contacts.email}
                                         </a>
                                     </div>
                                     <div>
                                         <strong style={{ display: 'block', color: '#0c1e33' }}>Phone &amp; WhatsApp Helpdesk:</strong>
-                                        <a href="tel:+919074934014" style={{ color: '#0c1e33', fontWeight: 700, textDecoration: 'none' }}>
-                                            +91 90749 34014
+                                        <a href={`tel:${SITE_CONFIG.contacts.helplineRaw}`} style={{ color: '#0c1e33', fontWeight: 700, textDecoration: 'none' }}>
+                                            {SITE_CONFIG.contacts.helpline}
                                         </a>
                                     </div>
                                     <div style={{ paddingTop: '6px' }}>
                                         <a
-                                            href="https://wa.me/919074934014"
+                                            href={SITE_CONFIG.contacts.whatsappHelpdeskPrefill}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             style={{
@@ -416,5 +453,13 @@ export default function ContactPage() {
             </main>
             <Footer />
         </div>
+    );
+}
+
+export default function ContactPage() {
+    return (
+        <Suspense fallback={<div style={{ minHeight: '100vh', background: '#fafbfc' }} />}>
+            <ContactFormContent />
+        </Suspense>
     );
 }

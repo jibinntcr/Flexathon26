@@ -137,7 +137,7 @@ export default function MasterGalleryPage() {
                             }}
                         >
                             <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#10B981', display: 'inline-block' }} />
-                            Authentic Visual Archive • {allGalleryItems.length} Real Race Moments
+                            Authentic Visual Archive • {allGalleryItems.length} Photographs &amp; Official Archive
                         </span>
                         <h1
                             style={{
@@ -174,7 +174,7 @@ export default function MasterGalleryPage() {
                             {[
                                 { id: 'all', label: `All Editions (${allGalleryItems.length})` },
                                 { id: 'hydoct18', label: `Hyderabad 2026 Archive (${allGalleryItems.filter(i => i.editionSlug === 'hydoct18').length})` },
-                                { id: 'kochi2027', label: 'Kochi 2027 Host City (1)' },
+                                { id: 'kochi2027', label: 'Kochi 2027 Announcement (1)' },
                             ].map((tab) => {
                                 const active = editionFilter === tab.id;
                                 return (
@@ -421,7 +421,7 @@ export default function MasterGalleryPage() {
                                                 position: 'absolute',
                                                 top: '10px',
                                                 left: '10px',
-                                                background: item.editionSlug === 'hydoct18' ? 'rgba(16, 185, 129, 0.95)' : '#C5192D',
+                                                background: item.editionSlug === 'hydoct18' ? 'rgba(16, 185, 129, 0.95)' : '#0284C7',
                                                 color: '#FFFFFF',
                                                 fontSize: '0.68rem',
                                                 fontWeight: 800,
@@ -432,7 +432,7 @@ export default function MasterGalleryPage() {
                                                 backdropFilter: 'blur(4px)',
                                             }}
                                         >
-                                            {item.editionName}
+                                            {item.editionSlug === 'kochi2027' ? 'Kochi Announcement (Archive Photo)' : item.editionName}
                                         </span>
                                         <span
                                             style={{
