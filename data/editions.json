@@ -7,14 +7,14 @@
     "state": "Telangana",
     "year": 2026,
     "editionName": "FLEXATHON 2026 Hyderabad",
-    "statusBadgeText": "Hyderabad 2026 — Successfully Concluded",
+    "statusBadgeText": "Hyderabad 2026 \u2014 Successfully Concluded",
     "eventDate": "2026-10-18",
     "eventDateDisplay": "18 October 2026",
     "timezone": "Asia/Kolkata",
     "venue": "ESCI Campus, Gachibowli, Hyderabad",
     "venueAddress": "Engineering Staff College of India (ESCI), Old Bombay Highway, Gachibowli, Hyderabad, Telangana 500032",
     "mapUrl": "https://maps.google.com/?q=Engineering+Staff+College+of+India+Gachibowli+Hyderabad",
-    "description": "The inaugural Hyderabad edition of FLEXATHON — The Global Goals Run brought together runners, students, families, and corporate teams at ESCI Gachibowli across 3K, 5K, and 10K categories in support of UN Sustainable Development Goal 4: Quality Education.",
+    "description": "The inaugural Hyderabad edition of FLEXATHON \u2014 The Global Goals Run brought together runners, students, families, and corporate teams at ESCI Gachibowli across 3K, 5K, and 10K categories in support of UN Sustainable Development Goal 4: Quality Education.",
     "heroAsset": "/assets/gallery/oct18/NIX09262.JPG",
     "imageGallery": [
       {
@@ -29,66 +29,845 @@
         "src": "/assets/gallery/oct18/NIX09092.JPG",
         "alt": "Hundreds of runners warming up in official FLEXATHON SDG 4 jerseys at ESCI Gachibowli",
         "caption": "Pre-race assembly & guided mobility warm-up with hundreds of runners in official SDG 4 jerseys at ESCI Gachibowli",
-        "category": "Start Assembly"
+        "category": "Start & Warm-up"
       },
       {
         "id": "hyd-img-3",
         "src": "/assets/gallery/oct18/NIX09215.JPG",
         "alt": "Runners striding through the iconic Engineering Staff College of India (ESCI) main arch",
         "caption": "Runners striding past the Engineering Staff College of India (ESCI) main entrance gate on race morning",
-        "category": "Venue"
+        "category": "Campus & Venue"
       },
       {
         "id": "hyd-img-4",
         "src": "/assets/gallery/oct18/NIX09990.JPG",
         "alt": "Women's Open Podium winners holding official prize cheques and medals on the FLEXATHON stage",
-        "caption": "Women's Open Podium Ceremony — Equal prize pool winners honoured with official cheques, certificates & medals",
-        "category": "Podium"
+        "caption": "Women's Open Podium Ceremony \u2014 Equal prize pool winners honoured with official cheques, certificates & medals",
+        "category": "Podium & Awards"
       },
       {
         "id": "hyd-img-5",
         "src": "/assets/gallery/oct18/NIX09962.JPG",
         "alt": "FLEXATHON 5K finishers proudly displaying their heavy-cast finisher medals",
         "caption": "5K Timed Run finishers proudly showcasing their official FLEXATHON finisher medals and SDG 4 jerseys",
-        "category": "Finishers"
+        "category": "Finishers & Medals"
       },
       {
         "id": "hyd-img-6",
         "src": "/assets/gallery/oct18/NIX09941.JPG",
-        "alt": "10K Men's Open 1st Place ₹10,000 prize cheque presentation at FLEXATHON Hyderabad",
-        "caption": "10K Timed Run 1st Place (₹10,000) prize cheque presentation on the main FLEXATHON stage",
-        "category": "Podium"
+        "alt": "10K Men's Open 1st Place \u20b910,000 prize cheque presentation at FLEXATHON Hyderabad",
+        "caption": "10K Timed Run 1st Place (\u20b910,000) prize cheque presentation on the main FLEXATHON stage",
+        "category": "Podium & Awards"
       },
       {
         "id": "hyd-img-7",
         "src": "/assets/gallery/oct18/NIX09299.JPG",
-        "alt": "Long stream of runners along the coned ESCI Campus marathon course",
-        "caption": "Continuous stream of runners along the coned, marshalled ESCI Gachibowli course",
+        "alt": "Scenic tree-lined course segment inside the lush Engineering Staff College of India (ESCI) campus",
+        "caption": "Scenic tree-lined course segment inside the lush Engineering Staff College of India (ESCI) campus",
         "category": "Race Course"
       },
       {
         "id": "hyd-img-8",
         "src": "/assets/gallery/oct18/NIX09918.JPG",
-        "alt": "Families and young runners celebrating at the FLEXATHON finish line arch",
-        "caption": "Families, students, and young finishers celebrating together under the FLEXATHON finish arch",
-        "category": "Community"
+        "alt": "Runners celebrating at the finish festival area with friends, colleagues, and family members",
+        "caption": "Runners celebrating at the finish festival area with friends, colleagues, and family members",
+        "category": "Moments & Community"
       },
       {
         "id": "hyd-img-9",
         "src": "/assets/gallery/oct18/NIX00003.JPG",
-        "alt": "FLEXATHON Hyderabad 2026 runners crossing the finish arch in official FLEXATHON jerseys",
-        "caption": "FLEXATHON Hyderabad 2026 — Finish line celebration under the official FLEXATHON arch",
-        "category": "Race Day"
+        "alt": "Early dawn setup, hydration zones, and medical response stations ready before the first wave",
+        "caption": "Early dawn setup, hydration zones, and medical response stations ready before the first wave",
+        "category": "Event Hub & Prep"
       },
       {
         "id": "hyd-img-10",
         "src": "/assets/gallery/oct18/NIX09082.JPG",
-        "alt": "FLEXATHON Hyderabad 2026 main stage and sunrise assembly at ESCI Gachibowli",
-        "caption": "Official FLEXATHON Main Stage & Sunrise Event Hub at ESCI Campus Gachibowli",
-        "category": "Event Hub"
+        "alt": "Main staging ground, DJ warm-up booth, and sponsor activation stalls at ESCI Gachibowli",
+        "caption": "Main staging ground, DJ warm-up booth, and sponsor activation stalls at ESCI Gachibowli",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-11",
+        "src": "/assets/gallery/oct18/NIX00004.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00004.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00004.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-12",
+        "src": "/assets/gallery/oct18/NIX00005.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00005.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00005.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-13",
+        "src": "/assets/gallery/oct18/NIX00019.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00019.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00019.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-14",
+        "src": "/assets/gallery/oct18/NIX00020.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00020.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00020.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-15",
+        "src": "/assets/gallery/oct18/NIX00021.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00021.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00021.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-16",
+        "src": "/assets/gallery/oct18/NIX00022.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00022.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00022.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-17",
+        "src": "/assets/gallery/oct18/NIX00023.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00023.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00023.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-18",
+        "src": "/assets/gallery/oct18/NIX00026.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00026.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00026.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-19",
+        "src": "/assets/gallery/oct18/NIX00028.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00028.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00028.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-20",
+        "src": "/assets/gallery/oct18/NIX00031.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Race morning village, kit distribution and medical hydration stations (NIX00031.JPG)",
+        "caption": "Race morning village, kit distribution and medical hydration stations (NIX00031.JPG)",
+        "category": "Event Hub & Prep"
+      },
+      {
+        "id": "hyd-img-21",
+        "src": "/assets/gallery/oct18/NIX09035.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09035.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09035.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-22",
+        "src": "/assets/gallery/oct18/NIX09046.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09046.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09046.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-23",
+        "src": "/assets/gallery/oct18/NIX09052.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09052.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09052.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-24",
+        "src": "/assets/gallery/oct18/NIX09059.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09059.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09059.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-25",
+        "src": "/assets/gallery/oct18/NIX09062.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09062.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09062.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-26",
+        "src": "/assets/gallery/oct18/NIX09066.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09066.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09066.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-27",
+        "src": "/assets/gallery/oct18/NIX09068.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09068.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09068.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-28",
+        "src": "/assets/gallery/oct18/NIX09069.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09069.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09069.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-29",
+        "src": "/assets/gallery/oct18/NIX09070.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09070.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09070.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-30",
+        "src": "/assets/gallery/oct18/NIX09071.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09071.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09071.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-31",
+        "src": "/assets/gallery/oct18/NIX09074.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09074.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09074.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-32",
+        "src": "/assets/gallery/oct18/NIX09076.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09076.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09076.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-33",
+        "src": "/assets/gallery/oct18/NIX09077.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09077.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09077.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-34",
+        "src": "/assets/gallery/oct18/NIX09081.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09081.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09081.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-35",
+        "src": "/assets/gallery/oct18/NIX09083.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09083.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09083.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-36",
+        "src": "/assets/gallery/oct18/NIX09087.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09087.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09087.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-37",
+        "src": "/assets/gallery/oct18/NIX09089.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09089.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09089.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-38",
+        "src": "/assets/gallery/oct18/NIX09091.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09091.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09091.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-39",
+        "src": "/assets/gallery/oct18/NIX09093.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09093.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09093.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-40",
+        "src": "/assets/gallery/oct18/NIX09094.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09094.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09094.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-41",
+        "src": "/assets/gallery/oct18/NIX09096.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09096.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09096.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-42",
+        "src": "/assets/gallery/oct18/NIX09099.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09099.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09099.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-43",
+        "src": "/assets/gallery/oct18/NIX09100.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09100.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09100.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-44",
+        "src": "/assets/gallery/oct18/NIX09101.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09101.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09101.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-45",
+        "src": "/assets/gallery/oct18/NIX09102.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09102.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09102.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-46",
+        "src": "/assets/gallery/oct18/NIX09105.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09105.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09105.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-47",
+        "src": "/assets/gallery/oct18/NIX09108.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09108.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09108.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-48",
+        "src": "/assets/gallery/oct18/NIX09109.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09109.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09109.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-49",
+        "src": "/assets/gallery/oct18/NIX09110.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09110.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09110.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-50",
+        "src": "/assets/gallery/oct18/NIX09118.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09118.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09118.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-51",
+        "src": "/assets/gallery/oct18/NIX09125.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09125.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09125.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-52",
+        "src": "/assets/gallery/oct18/NIX09130.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09130.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09130.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-53",
+        "src": "/assets/gallery/oct18/NIX09131.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09131.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09131.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-54",
+        "src": "/assets/gallery/oct18/NIX09132.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09132.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09132.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-55",
+        "src": "/assets/gallery/oct18/NIX09133.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09133.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09133.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-56",
+        "src": "/assets/gallery/oct18/NIX09139.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09139.JPG)",
+        "caption": "Pre-race assembly, energetic stage warm-up & runner mobility drills (NIX09139.JPG)",
+        "category": "Start & Warm-up"
+      },
+      {
+        "id": "hyd-img-57",
+        "src": "/assets/gallery/oct18/NIX09178.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - FLEXATHON community spirit and race day celebration (NIX09178.JPG)",
+        "caption": "FLEXATHON community spirit and race day celebration (NIX09178.JPG)",
+        "category": "Moments & Community"
+      },
+      {
+        "id": "hyd-img-58",
+        "src": "/assets/gallery/oct18/NIX09179.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - FLEXATHON community spirit and race day celebration (NIX09179.JPG)",
+        "caption": "FLEXATHON community spirit and race day celebration (NIX09179.JPG)",
+        "category": "Moments & Community"
+      },
+      {
+        "id": "hyd-img-59",
+        "src": "/assets/gallery/oct18/NIX09184.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - FLEXATHON community spirit and race day celebration (NIX09184.JPG)",
+        "caption": "FLEXATHON community spirit and race day celebration (NIX09184.JPG)",
+        "category": "Moments & Community"
+      },
+      {
+        "id": "hyd-img-60",
+        "src": "/assets/gallery/oct18/NIX09192.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - FLEXATHON community spirit and race day celebration (NIX09192.JPG)",
+        "caption": "FLEXATHON community spirit and race day celebration (NIX09192.JPG)",
+        "category": "Moments & Community"
+      },
+      {
+        "id": "hyd-img-61",
+        "src": "/assets/gallery/oct18/NIX09205.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09205.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09205.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-62",
+        "src": "/assets/gallery/oct18/NIX09206.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09206.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09206.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-63",
+        "src": "/assets/gallery/oct18/NIX09212.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09212.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09212.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-64",
+        "src": "/assets/gallery/oct18/NIX09230.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09230.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09230.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-65",
+        "src": "/assets/gallery/oct18/NIX09231.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09231.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09231.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-66",
+        "src": "/assets/gallery/oct18/NIX09234.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09234.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09234.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-67",
+        "src": "/assets/gallery/oct18/NIX09254.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09254.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09254.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-68",
+        "src": "/assets/gallery/oct18/NIX09260.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09260.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09260.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-69",
+        "src": "/assets/gallery/oct18/NIX09269.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09269.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09269.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-70",
+        "src": "/assets/gallery/oct18/NIX09279.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09279.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09279.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-71",
+        "src": "/assets/gallery/oct18/NIX09282.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09282.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09282.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-72",
+        "src": "/assets/gallery/oct18/NIX09284.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09284.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09284.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-73",
+        "src": "/assets/gallery/oct18/NIX09286.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09286.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09286.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-74",
+        "src": "/assets/gallery/oct18/NIX09292.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09292.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09292.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-75",
+        "src": "/assets/gallery/oct18/NIX09294.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09294.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09294.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-76",
+        "src": "/assets/gallery/oct18/NIX09325.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09325.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09325.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-77",
+        "src": "/assets/gallery/oct18/NIX09342.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09342.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09342.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-78",
+        "src": "/assets/gallery/oct18/NIX09343.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09343.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09343.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-79",
+        "src": "/assets/gallery/oct18/NIX09345.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09345.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09345.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-80",
+        "src": "/assets/gallery/oct18/NIX09359.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09359.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09359.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-81",
+        "src": "/assets/gallery/oct18/NIX09362.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09362.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09362.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-82",
+        "src": "/assets/gallery/oct18/NIX09413.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09413.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09413.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-83",
+        "src": "/assets/gallery/oct18/NIX09428.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09428.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09428.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-84",
+        "src": "/assets/gallery/oct18/NIX09434.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09434.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09434.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-85",
+        "src": "/assets/gallery/oct18/NIX09517.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09517.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09517.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-86",
+        "src": "/assets/gallery/oct18/NIX09518.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09518.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09518.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-87",
+        "src": "/assets/gallery/oct18/NIX09532.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09532.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09532.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-88",
+        "src": "/assets/gallery/oct18/NIX09539.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09539.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09539.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-89",
+        "src": "/assets/gallery/oct18/NIX09540.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09540.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09540.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-90",
+        "src": "/assets/gallery/oct18/NIX09542.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09542.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09542.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-91",
+        "src": "/assets/gallery/oct18/NIX09564.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09564.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09564.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-92",
+        "src": "/assets/gallery/oct18/NIX09577.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09577.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09577.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-93",
+        "src": "/assets/gallery/oct18/NIX09578.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09578.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09578.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-94",
+        "src": "/assets/gallery/oct18/NIX09619.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09619.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09619.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-95",
+        "src": "/assets/gallery/oct18/NIX09627.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09627.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09627.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-96",
+        "src": "/assets/gallery/oct18/NIX09629.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09629.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09629.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-97",
+        "src": "/assets/gallery/oct18/NIX09679.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09679.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09679.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-98",
+        "src": "/assets/gallery/oct18/NIX09680.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09680.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09680.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-99",
+        "src": "/assets/gallery/oct18/NIX09681.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09681.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09681.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-100",
+        "src": "/assets/gallery/oct18/NIX09695.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09695.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09695.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-101",
+        "src": "/assets/gallery/oct18/NIX09698.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09698.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09698.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-102",
+        "src": "/assets/gallery/oct18/NIX09713.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09713.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09713.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-103",
+        "src": "/assets/gallery/oct18/NIX09714.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09714.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09714.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-104",
+        "src": "/assets/gallery/oct18/NIX09755.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09755.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09755.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-105",
+        "src": "/assets/gallery/oct18/NIX09757.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09757.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09757.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-106",
+        "src": "/assets/gallery/oct18/NIX09779.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09779.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09779.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-107",
+        "src": "/assets/gallery/oct18/NIX09782.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09782.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09782.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-108",
+        "src": "/assets/gallery/oct18/NIX09787.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - 10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09787.JPG)",
+        "caption": "10K & 5K runners pacing along the scenic ESCI campus circuit (NIX09787.JPG)",
+        "category": "Race Course"
+      },
+      {
+        "id": "hyd-img-109",
+        "src": "/assets/gallery/oct18/NIX09827.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - FLEXATHON community spirit and race day celebration (NIX09827.JPG)",
+        "caption": "FLEXATHON community spirit and race day celebration (NIX09827.JPG)",
+        "category": "Moments & Community"
+      },
+      {
+        "id": "hyd-img-110",
+        "src": "/assets/gallery/oct18/NIX09867.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - FLEXATHON community spirit and race day celebration (NIX09867.JPG)",
+        "caption": "FLEXATHON community spirit and race day celebration (NIX09867.JPG)",
+        "category": "Moments & Community"
+      },
+      {
+        "id": "hyd-img-111",
+        "src": "/assets/gallery/oct18/NIX09913.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - FLEXATHON community spirit and race day celebration (NIX09913.JPG)",
+        "caption": "FLEXATHON community spirit and race day celebration (NIX09913.JPG)",
+        "category": "Moments & Community"
+      },
+      {
+        "id": "hyd-img-112",
+        "src": "/assets/gallery/oct18/NIX09925.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Finish line triumph & official cast medal celebration (NIX09925.JPG)",
+        "caption": "Finish line triumph & official cast medal celebration (NIX09925.JPG)",
+        "category": "Finishers & Medals"
+      },
+      {
+        "id": "hyd-img-113",
+        "src": "/assets/gallery/oct18/NIX09942.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Podium Ceremony & Prize Cheque presentation on the main FLEXATHON stage (NIX09942.JPG)",
+        "caption": "Podium Ceremony & Prize Cheque presentation on the main FLEXATHON stage (NIX09942.JPG)",
+        "category": "Podium & Awards"
+      },
+      {
+        "id": "hyd-img-114",
+        "src": "/assets/gallery/oct18/NIX09956.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Finish line triumph & official cast medal celebration (NIX09956.JPG)",
+        "caption": "Finish line triumph & official cast medal celebration (NIX09956.JPG)",
+        "category": "Finishers & Medals"
+      },
+      {
+        "id": "hyd-img-115",
+        "src": "/assets/gallery/oct18/NIX09970.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Finish line triumph & official cast medal celebration (NIX09970.JPG)",
+        "caption": "Finish line triumph & official cast medal celebration (NIX09970.JPG)",
+        "category": "Finishers & Medals"
+      },
+      {
+        "id": "hyd-img-116",
+        "src": "/assets/gallery/oct18/NIX09972.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Finish line triumph & official cast medal celebration (NIX09972.JPG)",
+        "caption": "Finish line triumph & official cast medal celebration (NIX09972.JPG)",
+        "category": "Finishers & Medals"
+      },
+      {
+        "id": "hyd-img-117",
+        "src": "/assets/gallery/oct18/NIX09984.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Finish line triumph & official cast medal celebration (NIX09984.JPG)",
+        "caption": "Finish line triumph & official cast medal celebration (NIX09984.JPG)",
+        "category": "Finishers & Medals"
+      },
+      {
+        "id": "hyd-img-118",
+        "src": "/assets/gallery/oct18/NIX09985.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Finish line triumph & official cast medal celebration (NIX09985.JPG)",
+        "caption": "Finish line triumph & official cast medal celebration (NIX09985.JPG)",
+        "category": "Finishers & Medals"
+      },
+      {
+        "id": "hyd-img-119",
+        "src": "/assets/gallery/oct18/NIX09987.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Podium Ceremony & Prize Cheque presentation on the main FLEXATHON stage (NIX09987.JPG)",
+        "caption": "Podium Ceremony & Prize Cheque presentation on the main FLEXATHON stage (NIX09987.JPG)",
+        "category": "Podium & Awards"
+      },
+      {
+        "id": "hyd-img-120",
+        "src": "/assets/gallery/oct18/NIX09988.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Podium Ceremony & Prize Cheque presentation on the main FLEXATHON stage (NIX09988.JPG)",
+        "caption": "Podium Ceremony & Prize Cheque presentation on the main FLEXATHON stage (NIX09988.JPG)",
+        "category": "Podium & Awards"
+      },
+      {
+        "id": "hyd-img-121",
+        "src": "/assets/gallery/oct18/NIX09996.JPG",
+        "alt": "FLEXATHON Hyderabad 2026 - Finish line triumph & official cast medal celebration (NIX09996.JPG)",
+        "caption": "Finish line triumph & official cast medal celebration (NIX09996.JPG)",
+        "category": "Finishers & Medals"
       }
     ],
-    "sdgFocusIds": [4],
+    "sdgFocusIds": [
+      4
+    ],
     "raceCategories": [
       {
         "distance": "3K",
@@ -96,7 +875,7 @@
         "startTime": "06:45 AM",
         "reportingTime": "05:30 AM",
         "price": 749,
-        "priceLabel": "₹749 (Historical Standard Entry Fee)",
+        "priceLabel": "\u20b9749 (Historical Standard Entry Fee)",
         "timing": "Non-Timed (Participation)",
         "ageEligibility": "8 years and above",
         "perks": [
@@ -115,7 +894,7 @@
         "startTime": "06:15 AM",
         "reportingTime": "05:15 AM",
         "price": 999,
-        "priceLabel": "₹999 (Historical Standard Entry Fee)",
+        "priceLabel": "\u20b9999 (Historical Standard Entry Fee)",
         "timing": "RFID Chip Timed",
         "ageEligibility": "12 years and above",
         "perks": [
@@ -125,7 +904,7 @@
           "Verified Timing E-Certificate",
           "Course Hydration & Medical Support",
           "Post-Run Refreshments",
-          "Eligible for ₹20,000 Category Prize Pool"
+          "Eligible for \u20b920,000 Category Prize Pool"
         ],
         "capacity": "Completed"
       },
@@ -135,7 +914,7 @@
         "startTime": "05:45 AM",
         "reportingTime": "05:00 AM",
         "price": 1099,
-        "priceLabel": "₹1,099 (Historical Standard Entry Fee)",
+        "priceLabel": "\u20b91,099 (Historical Standard Entry Fee)",
         "timing": "RFID Chip Timed",
         "ageEligibility": "15 years and above",
         "perks": [
@@ -145,22 +924,50 @@
           "Verified Timing E-Certificate",
           "Course Hydration, Energy Electrolytes & Medical Support",
           "Post-Run Refreshments",
-          "Eligible for ₹40,000 Category Prize Pool"
+          "Eligible for \u20b940,000 Category Prize Pool"
         ],
         "capacity": "Completed"
       }
     ],
     "schedule": [
-      { "time": "05:00 AM", "title": "Venue Gates Open & Baggage Counter", "detail": "Assembly at ESCI Campus, Gachibowli" },
-      { "time": "05:20 AM", "title": "10K Warm-Up & Race Briefing", "detail": "Guided mobility session at the main stage" },
-      { "time": "05:45 AM", "title": "10K Timed Run Flag-Off", "detail": "Official chip-timed start" },
-      { "time": "06:15 AM", "title": "5K Timed Run Flag-Off", "detail": "Official chip-timed start" },
-      { "time": "06:45 AM", "title": "3K Fun Run Flag-Off", "detail": "Community & family wave start" },
-      { "time": "07:30 AM", "title": "Post-Run Recovery & Refreshments", "detail": "Hydration, nutrition, and community celebration" },
-      { "time": "08:00 AM", "title": "Prize Distribution & SDG 4 Spotlight", "detail": "Podium ceremony for 10K & 5K Men and Women winners" }
+      {
+        "time": "05:00 AM",
+        "title": "Venue Gates Open & Baggage Counter",
+        "detail": "Assembly at ESCI Campus, Gachibowli"
+      },
+      {
+        "time": "05:20 AM",
+        "title": "10K Warm-Up & Race Briefing",
+        "detail": "Guided mobility session at the main stage"
+      },
+      {
+        "time": "05:45 AM",
+        "title": "10K Timed Run Flag-Off",
+        "detail": "Official chip-timed start"
+      },
+      {
+        "time": "06:15 AM",
+        "title": "5K Timed Run Flag-Off",
+        "detail": "Official chip-timed start"
+      },
+      {
+        "time": "06:45 AM",
+        "title": "3K Fun Run Flag-Off",
+        "detail": "Community & family wave start"
+      },
+      {
+        "time": "07:30 AM",
+        "title": "Post-Run Recovery & Refreshments",
+        "detail": "Hydration, nutrition, and community celebration"
+      },
+      {
+        "time": "08:00 AM",
+        "title": "Prize Distribution & SDG 4 Spotlight",
+        "detail": "Podium ceremony for 10K & 5K Men and Women winners"
+      }
     ],
     "routes": {
-      "summary": "Scenic, well-marshalled course starting and finishing at ESCI Campus, Gachibowli with hydration stations every 1.5–2 km, ambulance support, and course marshals.",
+      "summary": "Scenic, well-marshalled course starting and finishing at ESCI Campus, Gachibowli with hydration stations every 1.5\u20132 km, ambulance support, and course marshals.",
       "startPoint": "ESCI Campus Main Ground, Gachibowli, Hyderabad",
       "finishPoint": "ESCI Campus Main Ground, Gachibowli, Hyderabad"
     },
@@ -170,34 +977,70 @@
     },
     "prizes": {
       "totalPool": 60000,
-      "totalPoolLabel": "₹60,000 Historical Total Prize Pool",
+      "totalPoolLabel": "\u20b960,000 Historical Total Prize Pool",
       "categories": [
         {
           "distance": "10K Timed Run",
-          "subPoolLabel": "₹40,000 Total (Men & Women)",
+          "subPoolLabel": "\u20b940,000 Total (Men & Women)",
           "men": [
-            { "place": "1st Place", "amount": "₹10,000" },
-            { "place": "2nd Place", "amount": "₹6,000" },
-            { "place": "3rd Place", "amount": "₹4,000" }
+            {
+              "place": "1st Place",
+              "amount": "\u20b910,000"
+            },
+            {
+              "place": "2nd Place",
+              "amount": "\u20b96,000"
+            },
+            {
+              "place": "3rd Place",
+              "amount": "\u20b94,000"
+            }
           ],
           "women": [
-            { "place": "1st Place", "amount": "₹10,000" },
-            { "place": "2nd Place", "amount": "₹6,000" },
-            { "place": "3rd Place", "amount": "₹4,000" }
+            {
+              "place": "1st Place",
+              "amount": "\u20b910,000"
+            },
+            {
+              "place": "2nd Place",
+              "amount": "\u20b96,000"
+            },
+            {
+              "place": "3rd Place",
+              "amount": "\u20b94,000"
+            }
           ]
         },
         {
           "distance": "5K Timed Run",
-          "subPoolLabel": "₹20,000 Total (Men & Women)",
+          "subPoolLabel": "\u20b920,000 Total (Men & Women)",
           "men": [
-            { "place": "1st Place", "amount": "₹5,000" },
-            { "place": "2nd Place", "amount": "₹3,000" },
-            { "place": "3rd Place", "amount": "₹2,000" }
+            {
+              "place": "1st Place",
+              "amount": "\u20b95,000"
+            },
+            {
+              "place": "2nd Place",
+              "amount": "\u20b93,000"
+            },
+            {
+              "place": "3rd Place",
+              "amount": "\u20b92,000"
+            }
           ],
           "women": [
-            { "place": "1st Place", "amount": "₹5,000" },
-            { "place": "2nd Place", "amount": "₹3,000" },
-            { "place": "3rd Place", "amount": "₹2,000" }
+            {
+              "place": "1st Place",
+              "amount": "\u20b95,000"
+            },
+            {
+              "place": "2nd Place",
+              "amount": "\u20b93,000"
+            },
+            {
+              "place": "3rd Place",
+              "amount": "\u20b92,000"
+            }
           ]
         }
       ],
@@ -220,15 +1063,15 @@
       },
       {
         "q": "What were the race categories and historical entry fees for Hyderabad 2026?",
-        "a": "Hyderabad 2026 featured three categories: 3K Fun Run (historical entry fee ₹749, 06:45 AM flag-off), 5K Timed Run (historical entry fee ₹999, 06:15 AM flag-off), and 10K Timed Run (historical entry fee ₹1,099, 05:45 AM flag-off)."
+        "a": "Hyderabad 2026 featured three categories: 3K Fun Run (historical entry fee \u20b9749, 06:45 AM flag-off), 5K Timed Run (historical entry fee \u20b9999, 06:15 AM flag-off), and 10K Timed Run (historical entry fee \u20b91,099, 05:45 AM flag-off)."
       },
       {
         "q": "Which Global Goal was highlighted in Hyderabad 2026?",
-        "a": "Hyderabad 2026 spotlighted UN Sustainable Development Goal 4: Quality Education — advocating inclusive, equitable education and learning opportunities for all."
+        "a": "Hyderabad 2026 spotlighted UN Sustainable Development Goal 4: Quality Education \u2014 advocating inclusive, equitable education and learning opportunities for all."
       },
       {
         "q": "Can Hyderabad 2026 participants still create or download their Runner Card?",
-        "a": "Yes! Registered Hyderabad 2026 participants can look up their registration by mobile number or upload a photo in the Hyderabad Runner Card Studio (/hydoct18/social-card) to generate and download their commemorative 1254×1254 runner card."
+        "a": "Yes! Registered Hyderabad 2026 participants can look up their registration by mobile number or upload a photo in the Hyderabad Runner Card Studio (/hydoct18/social-card) to generate and download their commemorative 1254\u00d71254 runner card."
       },
       {
         "q": "Where can I check Hyderabad 2026 race results and certificates?",
@@ -270,12 +1113,30 @@
       }
     ],
     "discoveryPlatforms": [
-      { "name": "BookMyShow", "logo": "/assets/partners/1 BookMyShow.jpg" },
-      { "name": "iFinish", "logo": "/assets/partners/2 IFinish.png" },
-      { "name": "India Running", "logo": "/assets/partners/3 IndiaRunning.jpeg" },
-      { "name": "Townscript", "logo": "/assets/partners/4Townscript.png" },
-      { "name": "CityWoofer", "logo": "/assets/partners/5 CityWoofer.png" },
-      { "name": "District", "logo": "/assets/partners/6 District.png" }
+      {
+        "name": "BookMyShow",
+        "logo": "/assets/partners/1 BookMyShow.jpg"
+      },
+      {
+        "name": "iFinish",
+        "logo": "/assets/partners/2 IFinish.png"
+      },
+      {
+        "name": "India Running",
+        "logo": "/assets/partners/3 IndiaRunning.jpeg"
+      },
+      {
+        "name": "Townscript",
+        "logo": "/assets/partners/4Townscript.png"
+      },
+      {
+        "name": "CityWoofer",
+        "logo": "/assets/partners/5 CityWoofer.png"
+      },
+      {
+        "name": "District",
+        "logo": "/assets/partners/6 District.png"
+      }
     ],
     "organizer": "Flexon Sports Foundation",
     "contact": {
@@ -296,8 +1157,8 @@
     },
     "status": "Completed",
     "published": true,
-    "seoTitle": "FLEXATHON 2026 Hyderabad (Completed) | 18 Oct 2026 • ESCI Gachibowli • SDG 4",
-    "metaDescription": "Explore the official completed edition hub for FLEXATHON 2026 Hyderabad (18 October 2026, ESCI Gachibowli). View 3K/5K/10K race details, ₹60,000 prize pool, SDG 4 Quality Education spotlight, and commemorative runner cards.",
+    "seoTitle": "FLEXATHON 2026 Hyderabad (Completed) | 18 Oct 2026 \u2022 ESCI Gachibowli \u2022 SDG 4",
+    "metaDescription": "Explore the official completed edition hub for FLEXATHON 2026 Hyderabad (18 October 2026, ESCI Gachibowli). View 3K/5K/10K race details, \u20b960,000 prize pool, SDG 4 Quality Education spotlight, and commemorative runner cards.",
     "ogImage": "/assets/brand/flexathon-2026-hyderabad-social-share.jpg",
     "createdAt": "2026-06-15T10:00:00Z",
     "updatedAt": "2026-10-29T10:00:00Z"
@@ -310,11 +1171,11 @@
     "state": "Kerala",
     "year": null,
     "editionName": "FLEXATHON Kochi Edition",
-    "statusBadgeText": "Coming Soon • Next Announced Host City",
+    "statusBadgeText": "Coming Soon \u2022 Next Announced Host City",
     "eventDate": null,
     "eventDateDisplay": "Date To Be Announced",
     "timezone": "Asia/Kolkata",
-    "venue": "Venue in Kochi, Kerala — To Be Announced",
+    "venue": "Venue in Kochi, Kerala \u2014 To Be Announced",
     "venueAddress": "Official venue and course details will be published once confirmed with civic and institutional authorities in Kochi.",
     "mapUrl": null,
     "description": "The FLEXATHON movement heads next to Kochi, Kerala. Register your interest to receive verified updates as soon as the official race date, venue, categories, and Global Goal focus are announced by Flexon Sports Foundation.",
@@ -323,8 +1184,8 @@
       {
         "id": "kochi-img-1",
         "src": "/assets/gallery/oct18/NIX09962.JPG",
-        "alt": "FLEXATHON movement expanding to Kochi, Kerala — Finisher medals celebration",
-        "caption": "Kochi, Kerala — Next announced host city for the FLEXATHON multi-city running movement",
+        "alt": "FLEXATHON movement expanding to Kochi, Kerala \u2014 Finisher medals celebration",
+        "caption": "Kochi, Kerala \u2014 Next announced host city for the FLEXATHON multi-city running movement",
         "category": "Announcement"
       }
     ],
@@ -370,8 +1231,8 @@
     },
     "status": "Coming Soon",
     "published": true,
-    "seoTitle": "FLEXATHON Kochi Edition — Coming Soon | Kerala | The Global Goals Run",
-    "metaDescription": "FLEXATHON — The Global Goals Run is coming to Kochi, Kerala. Register your interest for verified updates on race dates, venue, categories, volunteering, and partnerships.",
+    "seoTitle": "FLEXATHON Kochi Edition \u2014 Coming Soon | Kerala | The Global Goals Run",
+    "metaDescription": "FLEXATHON \u2014 The Global Goals Run is coming to Kochi, Kerala. Register your interest for verified updates on race dates, venue, categories, volunteering, and partnerships.",
     "ogImage": "/assets/brand/flexathon-logo-full.png",
     "createdAt": "2026-10-29T10:00:00Z",
     "updatedAt": "2026-10-29T10:00:00Z"
